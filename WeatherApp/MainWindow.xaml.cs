@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,6 +21,11 @@ namespace WeatherApp {
 	public partial class MainWindow : Window {
 		public MainWindow() {
 			InitializeComponent();
+		}
+		XmlDocument GetDataFromServer(string cityname) {
+			XmlDocument xml = new XmlDocument();
+			xml.Load(string.Format("http://www.google.com/ig/api?weather={0}", cityname));
+			return xml;
 		}
 	}
 }
