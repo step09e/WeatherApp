@@ -176,6 +176,17 @@ namespace WeatherApp
                         Humidity = Humidity
                     });
 
+                    DateTime_ = "";
+                    Temperature_day = "";
+                    Temperature_night = "";
+                    MinTemp = "";
+                    MaxTemp = "";
+                    Precipitation = "";
+                    Clouds = "";
+                    WindDirection = "";
+                    WindSpeed = "";
+                    Pressure = "";
+                    Humidity = "";
                 }
                 catch (ArgumentNullException)
                 {
@@ -191,7 +202,7 @@ namespace WeatherApp
 
         private void ProcessString(string s)
         {
-            if (s == "")
+            if (s.Length == 0)
             {
                 throw new ArgumentNullException();
             }
