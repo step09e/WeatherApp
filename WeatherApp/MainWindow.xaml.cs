@@ -15,19 +15,24 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
-namespace WeatherApp {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
-	public partial class MainWindow : Window {
-		public MainWindow() {
-			InitializeComponent();
-		}
-		XmlDocument GetDataFromServer(string cityname) {
-			XmlDocument xml = new XmlDocument();
-			xml.Load(string.Format("http://www.google.com/ig/api?weather={0}", cityname));
-			return xml;
-		}
+namespace WeatherApp
+{
+
+    public partial class MainWindow : Window
+    {
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        XmlDocument GetDataFromServer(string cityname)
+        {
+            XmlDocument xml = new XmlDocument();
+            xml.Load(string.Format("http://www.google.com/ig/api?weather={0}", cityname));
+            return xml;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button Butt1 = sender as Button;
@@ -35,20 +40,30 @@ namespace WeatherApp {
             Window.Show();
             Window.forecast.ItemsSource = GetData(InputLocation.Text, Window);
         }
-             
+
         //parser + html requester
         private List<WeatherData> GetData(string cityname, Windowforecast Window)
         {
             //get data
             String myUri = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + ",us&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231";
             XmlDocument MyXmlDocument = new XmlDocument();
-            MyXmlDocument.Load(myUri);
+            try
+            {
+                MyXmlDocument.Load(myUri);
+            }
+            catch (Exception e)
+            {
+                Window.Title = e.Message;
+                return null;
+            }
+
             MyXmlDocument.Save("xml" + ".dat");
             XmlTextReader reader = new XmlTextReader("xml" + ".dat");
 
             // xml parsing
 
             List<WeatherData> MyWeatherData = new List<WeatherData>();
+
             String DateTime_ = "";
             String Temperature_day = "";
             String Temperature_night = "";
@@ -71,7 +86,7 @@ namespace WeatherApp {
                         break;
                     case XmlNodeType.Element:
                         if (reader.Name == "name") a = 1;
-                        if (reader.Name == "time")
+                        else if (reader.Name == "time")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "day")
@@ -82,25 +97,25 @@ namespace WeatherApp {
                                     DateTime_ += reader.Value;
                             }
 
-                        if (reader.Name == "precipitation")
+                        else if (reader.Name == "precipitation")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "type")
                                     Precipitation = reader.Value;
                             }
-                        if (reader.Name == "windDirection")
+                        else if (reader.Name == "windDirection")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "code")
                                     WindDirection = reader.Value;
                             }
-                        if (reader.Name == "windSpeed")
+                        else if (reader.Name == "windSpeed")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "mps")
                                     WindSpeed = reader.Value;
                             }
-                        if (reader.Name == "temperature")
+                        else if (reader.Name == "temperature")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "day")
@@ -114,19 +129,19 @@ namespace WeatherApp {
                                 if (reader.Name == "min")
                                     MinTemp = reader.Value;
                             }
-                        if (reader.Name == "pressure")
+                        else if (reader.Name == "pressure")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "value")
                                     Pressure = reader.Value + "hpa";
                             }
-                        if (reader.Name == "humidity")
+                        else if (reader.Name == "humidity")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "value")
                                     Humidity = reader.Value + "%";
                             }
-                        if (reader.Name == "clouds")
+                        else if (reader.Name == "clouds")
                             while (reader.MoveToNextAttribute())
                             {
                                 if (reader.Name == "all")
@@ -142,35 +157,48 @@ namespace WeatherApp {
 
                         break;
                 }
-                if (Clouds.Length > 1)
+
+                try
                 {
-                    MyWeatherData.Add(new WeatherData(DateTime_,
-                                                        Temperature_day,
-                                                        Temperature_night,
-                                                        MinTemp,
-                                                        MaxTemp,
-                                                        Precipitation,
-                                                        Clouds,
-                                                        WindDirection,
-                                                        WindSpeed,
-                                                        Pressure,
-                                                        Humidity));
-                    DateTime_ = "";
-                    Temperature_day = "";
-                    Temperature_night = "";
-                    Precipitation = "";
-                    Clouds = "";
-                    WindDirection = "";
-                    WindSpeed = "";
-                    Pressure = "";
-                    Humidity = "";
+                    ProcessString(Clouds);
+                    MyWeatherData.Add(new WeatherData
+                    {
+                        DateTime = DateTime_,
+                        Temperature = Temperature_day,
+                        Temperature_night = Temperature_night,
+                        MinTemp = MinTemp,
+                        MaxTemp = MaxTemp,
+                        Precipitation = Precipitation,
+                        Clouds = Clouds,
+                        WindDirection = WindDirection,
+                        WindSpeed = WindSpeed,
+                        Pressure = Pressure,
+                        Humidity = Humidity
+                    });
+
                 }
+                catch (ArgumentNullException)
+                {
+                    continue;
+                }
+
+
             }
             reader.Close();
+
             return MyWeatherData;
         }
 
-     
+        private void ProcessString(string s)
+        {
+            if (s == "")
+            {
+                throw new ArgumentNullException();
+            }
+        }
 
-	}
+
+    }
+
 }
+
