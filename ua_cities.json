@@ -1,0 +1,1527 @@
+{"city": "Hurzuf", "id": 707860}
+{"city": "Holubynka", "id": 708546}
+{"city": "Laspi", "id": 703363}
+{"city": "Alupka", "id": 713514}
+{"city": "Tyuzler", "id": 690856}
+{"city": "Il’ichëvka", "id": 707716}
+{"city": "Partyzans’ke", "id": 697959}
+{"city": "Yevpatoriya", "id": 688105}
+{"city": "Kryvyy Rih", "id": 703845}
+{"city": "Ukraine", "id": 690791}
+{"city": "Misto Kyyiv", "id": 703447}
+{"city": "Avtonomna Respublika Krym", "id": 703883}
+{"city": "Vinogradnoye", "id": 689552}
+{"city": "Kyyivs’ka Oblast’", "id": 703446}
+{"city": "Privol’noye", "id": 696234}
+{"city": "Bobyanskoye", "id": 711987}
+{"city": "Imshanaya", "id": 707611}
+{"city": "Yurov", "id": 688041}
+{"city": "Massandra", "id": 701619}
+{"city": "Kudryne", "id": 703776}
+{"city": "Krasnopeshchernaya", "id": 704360}
+{"city": "Aeroflots’kyy", "id": 713772}
+{"city": "-", "id": 713155}
+{"city": "Sukhoivanovskoye", "id": 692248}
+{"city": "Dravtse", "id": 709624}
+{"city": "Shatylivka", "id": 6723018}
+{"city": "Rozovka", "id": 695305}
+{"city": "Berdyanskoye", "id": 712443}
+{"city": "Dnipropetrovsk", "id": 709930}
+{"city": "Rosvigovo", "id": 695394}
+{"city": "Zarech’ye", "id": 687640}
+{"city": "Mohyliv-Podilskyy", "id": 700918}
+{"city": "Kalynivka", "id": 707155}
+{"city": "Artsyz", "id": 713163}
+{"city": "Olenevka", "id": 461727}
+{"city": "Urzuf", "id": 505257}
+{"city": "Staryy Dobrotvor", "id": 616196}
+{"city": "Zuya", "id": 686812}
+{"city": "Zolotyy Potik", "id": 686863}
+{"city": "Zlynka", "id": 686932}
+{"city": "Zhvanets", "id": 686970}
+{"city": "Zhuravka", "id": 687009}
+{"city": "Zhovtneve", "id": 687065}
+{"city": "Zhelyabovka", "id": 687191}
+{"city": "Zdolbitsa", "id": 687433}
+{"city": "Zavallya", "id": 687526}
+{"city": "Karolino-Buhaz", "id": 687556}
+{"city": "Zatoka", "id": 687557}
+{"city": "Zatyshshya", "id": 687562}
+{"city": "Zastavna", "id": 687578}
+{"city": "Zarya", "id": 687602}
+{"city": "Zarichchya", "id": 687645}
+{"city": "Zaozerne", "id": 687726}
+{"city": "Zaliztsi", "id": 687787}
+{"city": "Zheleznyj port", "id": 687790}
+{"city": "Zalesnoye", "id": 687824}
+{"city": "Zakupne", "id": 687841}
+{"city": "Zahvizdya", "id": 687872}
+{"city": "Zagnitkiv", "id": 687901}
+{"city": "Yurkivka", "id": 688052}
+{"city": "Yerky", "id": 688127}
+{"city": "Yelyzavethradka", "id": 688191}
+{"city": "Yasinya", "id": 688365}
+{"city": "Yamnytsya", "id": 688512}
+{"city": "Yahilnytsya", "id": 688602}
+{"city": "Yabluniv", "id": 688625}
+{"city": "Yablunytsya", "id": 688637}
+{"city": "Vyshkovo", "id": 688717}
+{"city": "Vylok", "id": 688749}
+{"city": "Vylkove", "id": 688750}
+{"city": "Vvedenka", "id": 688805}
+{"city": "Vradiyivka", "id": 688846}
+{"city": "Voznesenka", "id": 688865}
+{"city": "Voykove", "id": 688904}
+{"city": "Vorozhba", "id": 688961}
+{"city": "Voronovytsya", "id": 689003}
+{"city": "Volovets", "id": 689106}
+{"city": "Voloka", "id": 689144}
+{"city": "Volnoye", "id": 689190}
+{"city": "Voyinka", "id": 689307}
+{"city": "Volodymyrets", "id": 689428}
+{"city": "Vyzhnytsya", "id": 689434}
+{"city": "Vynohradove", "id": 689531}
+{"city": "Vynohradivka", "id": 689543}
+{"city": "Viline", "id": 689595}
+{"city": "Verkhovyna", "id": 689817}
+{"city": "Verkhnyaya Syrovatka", "id": 689830}
+{"city": "Verkhnya Rozhanka", "id": 689834}
+{"city": "Verkhnyachka", "id": 689857}
+{"city": "Verkhniy Yasenov", "id": 689860}
+{"city": "Verkhniy Rohachyk", "id": 689868}
+{"city": "Verkhneye Sinevidnoye", "id": 689892}
+{"city": "Verenchanka", "id": 689945}
+{"city": "Verbivka", "id": 690009}
+{"city": "Vendychany", "id": 690032}
+{"city": "Velykoploske", "id": 690035}
+{"city": "Velyka Mykhaylivka", "id": 690038}
+{"city": "Velykyy Klyuchiv", "id": 690132}
+{"city": "Velikiye Sorochintsy", "id": 690147}
+{"city": "Velyki Kopany", "id": 690165}
+{"city": "Velikiye Borki", "id": 690184}
+{"city": "Velikiy Burluk", "id": 690193}
+{"city": "Velyka Pysarivka", "id": 690230}
+{"city": "Velyka Bahachka", "id": 690285}
+{"city": "Vashkivtsi", "id": 690428}
+{"city": "Vary", "id": 690434}
+{"city": "Vapnyarka", "id": 690485}
+{"city": "Utkivka", "id": 690571}
+{"city": "Ustynivka", "id": 690600}
+{"city": "Uralo-Kavkaz", "id": 690673}
+{"city": "Nyzhni Petrivtsi", "id": 690679}
+{"city": "Ulichnoye", "id": 690745}
+{"city": "Ulanov", "id": 690756}
+{"city": "Uhryniv", "id": 690804}
+{"city": "Ugnev", "id": 690814}
+{"city": "Uhlove", "id": 690820}
+{"city": "Tysmenychany", "id": 690875}
+{"city": "Tynnoye", "id": 690890}
+{"city": "Turbiv", "id": 690985}
+{"city": "Tukhlya", "id": 691019}
+{"city": "Tsybulevka", "id": 691051}
+{"city": "Tsybli", "id": 691052}
+{"city": "Strohonivka", "id": 692410}
+{"city": "Stozhkovskoye", "id": 692468}
+{"city": "Stepanivka", "id": 692604}
+{"city": "Serednye", "id": 693002}
+{"city": "Kiev", "id": 703448}
+{"city": "Nizhniy Airgul’", "id": 699996}
+{"city": "Trukhanov Ostrov", "id": 691184}
+{"city": "Podol", "id": 696877}
+{"city": "Sanatoriy Kryms’ke Prymor”ya", "id": 703863}
+{"city": "Sorokin", "id": 815919}
+{"city": "Bilhorod-Dnistrovskyy", "id": 712160}
+{"city": "Berezhani", "id": 712374}
+{"city": "Verbany", "id": 690017}
+{"city": "Avtozavodskiy Rayon", "id": 713101}
+{"city": "Bar", "id": 712861}
+{"city": "Brailiv", "id": 711487}
+{"city": "Chekhovo", "id": 710878}
+{"city": "Chokolovka", "id": 710425}
+{"city": "Donets’ka Oblast’", "id": 709716}
+{"city": "Donetsk", "id": 709717}
+{"city": "Sokolyne", "id": 693272}
+{"city": "Novopillya", "id": 699318}
+{"city": "Novoul’yanovka", "id": 699072}
+{"city": "Velyke Sadove", "id": 711743}
+{"city": "Tankove", "id": 691919}
+{"city": "Krasnyy Mak", "id": 704201}
+{"city": "Zalisne", "id": 687825}
+{"city": "Tole", "id": 691462}
+{"city": "Bakhchysaray", "id": 712969}
+{"city": "Turhenyevka", "id": 690973}
+{"city": "Bashtanivka", "id": 712773}
+{"city": "Starosel’ye", "id": 692800}
+{"city": "Hlybokyy Yar", "id": 708727}
+{"city": "Partizanskoye", "id": 697960}
+{"city": "Nauchnyy", "id": 700416}
+{"city": "Pushcha-Voditsa", "id": 696050}
+{"city": "Kurenëvka", "id": 703625}
+{"city": "Boryspil", "id": 711660}
+{"city": "Nikol’skaya", "id": 700072}
+{"city": "Predmostnaya", "id": 696359}
+{"city": "Darnitsa", "id": 710276}
+{"city": "Bortnichi", "id": 711562}
+{"city": "Osokorki", "id": 698283}
+{"city": "Novo-Poznyaki", "id": 699317}
+{"city": "Martusovka", "id": 701759}
+{"city": "Izobil’ne", "id": 707305}
+{"city": "Asport", "id": 713150}
+{"city": "Mramorne", "id": 700661}
+{"city": "Drovyanka", "id": 709602}
+{"city": "Kurortne", "id": 703596}
+{"city": "Shchebetovka", "id": 694320}
+{"city": "Akikat", "id": 713746}
+{"city": "Shakh-Murza Staraya", "id": 694385}
+{"city": "Perevalivka", "id": 697652}
+{"city": "Lisne", "id": 703169}
+{"city": "Eski Yurt", "id": 709267}
+{"city": "Zemlyanychne", "id": 687301}
+{"city": "Chernoslivka", "id": 710680}
+{"city": "Arpat", "id": 687388}
+{"city": "Krasnoselivka", "id": 704324}
+{"city": "Pcholyne", "id": 697811}
+{"city": "Kazil’", "id": 706557}
+{"city": "Baksan", "id": 701300}
+{"city": "Konrat", "id": 705127}
+{"city": "Telichka", "id": 691743}
+{"city": "Sums’ka Oblast’", "id": 692196}
+{"city": "Doroshivka", "id": 709681}
+{"city": "Yampil", "id": 688501}
+{"city": "Mayorovka", "id": 701500}
+{"city": "Chernihivs’ka Oblast’", "id": 710734}
+{"city": "Khutor Fomina", "id": 706098}
+{"city": "Krasnyye Partizany", "id": 704218}
+{"city": "Bobrovytsya", "id": 711999}
+{"city": "Markovtsy", "id": 701779}
+{"city": "Novaya Darnitsa", "id": 699871}
+{"city": "Kukhmisterskaya Sloboda", "id": 703757}
+{"city": "Poznyaki", "id": 696377}
+{"city": "Ivano-Frankivs’ka Oblast’", "id": 707470}
+{"city": "Vorokhta", "id": 689037}
+{"city": "Zhytomyrs’ka Oblast’", "id": 686966}
+{"city": "Kocherovo", "id": 705514}
+{"city": "Khutor Pen’kovatoye", "id": 706021}
+{"city": "Krasnyy Shlyakh", "id": 704183}
+{"city": "Vysokoye", "id": 688675}
+{"city": "Stavyshche", "id": 692672}
+{"city": "Nebilitsa", "id": 700396}
+{"city": "Sitnyaki", "id": 693738}
+{"city": "Kopylov", "id": 705015}
+{"city": "Vyshegrad", "id": 688726}
+{"city": "Kolonshchina", "id": 705303}
+{"city": "Buzovaya", "id": 711055}
+{"city": "Belogorodka", "id": 712590}
+{"city": "Petropavlovskaya Borshchagovka", "id": 697418}
+{"city": "Belichi", "id": 712631}
+{"city": "Svyatoshino", "id": 692014}
+{"city": "Brovary", "id": 711390}
+{"city": "Bogdanovka", "id": 711919}
+{"city": "Semypolky", "id": 694558}
+{"city": "Kalita", "id": 707123}
+{"city": "Yemel’yanov", "id": 688157}
+{"city": "Syrai", "id": 691991}
+{"city": "Vesëloye", "id": 689772}
+{"city": "Terny", "id": 691606}
+{"city": "Khutor Naumovskiy", "id": 706043}
+{"city": "Yaremche", "id": 688455}
+{"city": "Slavov", "id": 693585}
+{"city": "Голубинка", "id": 71296900}
+{"city": "Mogilëv", "id": 700924}
+{"city": "Foros", "id": 709112}
+{"city": "Opolzneve", "id": 698466}
+{"city": "Snitovskoye", "id": 693372}
+{"city": "Miskhor", "id": 700997}
+{"city": "Tylove", "id": 706452}
+{"city": "Kurpaty", "id": 703586}
+{"city": "Pidhirne", "id": 696961}
+{"city": "Rodnykivs’ke", "id": 695572}
+{"city": "Kolkhozne", "id": 705440}
+{"city": "Livadiya", "id": 702907}
+{"city": "Gornaya Zdravnitsa", "id": 708408}
+{"city": "Isar", "id": 707552}
+{"city": "Balaklava", "id": 712930}
+{"city": "Otradnoye", "id": 698159}
+{"city": "Alsu", "id": 713520}
+{"city": "Ushchel’noye", "id": 690647}
+{"city": "Nikita", "id": 711527}
+{"city": "Sovetskoye", "id": 693056}
+{"city": "Dolossy", "id": 709761}
+{"city": "Nizhniy Chorgun’", "id": 699992}
+{"city": "Khmel’nyts’ke", "id": 706372}
+{"city": "Artek", "id": 713191}
+{"city": "Krasnokamenka", "id": 704377}
+{"city": "Shablykina", "id": 694393}
+{"city": "Schastlivoye", "id": 694728}
+{"city": "Inkerman", "id": 712576}
+{"city": "Ternivka", "id": 691634}
+{"city": "Misto Sevastopol’", "id": 694422}
+{"city": "Sevastopol", "id": 694423}
+{"city": "Istoki", "id": 707526}
+{"city": "Urochyshche Kripke", "id": 704116}
+{"city": "Beshuyskiye Kopi", "id": 712223}
+{"city": "Mekenziyevy Gory", "id": 701419}
+{"city": "Bartenivka", "id": 712796}
+{"city": "Uchkuyeva", "id": 690847}
+{"city": "Malyy Mayak", "id": 701947}
+{"city": "Rabochiy Ugolok", "id": 695947}
+{"city": "Alushta", "id": 713513}
+{"city": "Verkhnya Kutuzovka", "id": 703518}
+{"city": "Semydvir”ya", "id": 694574}
+{"city": "Sotera", "id": 693070}
+{"city": "Luchyste", "id": 702705}
+{"city": "Heneral’s’ke", "id": 708879}
+{"city": "Skalyste", "id": 693698}
+{"city": "Matiasa", "id": 701611}
+{"city": "Perevalnoe", "id": 697653}
+{"city": "Uyutnaya", "id": 690557}
+{"city": "Sudak", "id": 692315}
+{"city": "Sonyachna Dolyna", "id": 693219}
+{"city": "Lagernoye", "id": 703423}
+{"city": "Dachne", "id": 710334}
+{"city": "Fersmanove", "id": 709151}
+{"city": "Shevekova", "id": 694115}
+{"city": "Lozove", "id": 702741}
+{"city": "Koktebel", "id": 697124}
+{"city": "Zamost’ye", "id": 687746}
+{"city": "Zhigulina Roshcha", "id": 687150}
+{"city": "Lesnaya", "id": 703168}
+{"city": "Yunga", "id": 688074}
+{"city": "Goncharova", "id": 708507}
+{"city": "Krasnoye Selo", "id": 704259}
+{"city": "Urus-Khodzha", "id": 690652}
+{"city": "Besh Terek", "id": 712228}
+{"city": "Feodosiya", "id": 709161}
+{"city": "Novyy Koyash", "id": 796898}
+{"city": "Bila Skelya", "id": 712654}
+{"city": "Saky", "id": 694910}
+{"city": "Vulkanivka", "id": 688817}
+{"city": "Uyutne", "id": 690556}
+{"city": "Kerch", "id": 706524}
+{"city": "Tsementna Slobidka", "id": 826049}
+{"city": "Yenikale", "id": 688146}
+{"city": "Zhukivka", "id": 687032}
+{"city": "Plavni", "id": 697114}
+{"city": "Adzhymushkay", "id": 697958}
+{"city": "Yehorove", "id": 826042}
+{"city": "Mysove", "id": 700550}
+{"city": "Chornomorske", "id": 710687}
+{"city": "Urochyshche Rozhkova", "id": 695322}
+{"city": "Portove", "id": 696471}
+{"city": "Biyuk-Nayman", "id": 712105}
+{"city": "Heniches’ka Hirka", "id": 708877}
+{"city": "Shchemilovka", "id": 694308}
+{"city": "Gaspra", "id": 708953}
+{"city": "Sanatoriy Batylyman", "id": 712752}
+{"city": "Orlyne", "id": 698391}
+{"city": "Rezervne", "id": 695646}
+{"city": "Partenit", "id": 709075}
+{"city": "Kamyshly", "id": 710320}
+{"city": "Pishchane", "id": 697530}
+{"city": "Zavods’ke", "id": 687501}
+{"city": "Perove", "id": 697624}
+{"city": "Armutluk", "id": 713204}
+{"city": "Hrushivka", "id": 708003}
+{"city": "Zol’noye", "id": 686898}
+{"city": "Bilohirsk", "id": 712587}
+{"city": "Nasypne", "id": 700432}
+{"city": "Ayvazovskaya", "id": 713076}
+{"city": "Goncharovka", "id": 708506}
+{"city": "Blizhniye Kamyshi", "id": 712048}
+{"city": "Dal’niye Kamyshi", "id": 710315}
+{"city": "Vladyslavivka", "id": 689374}
+{"city": "Batal’ne", "id": 712755}
+{"city": "Ortay", "id": 698351}
+{"city": "Luhove", "id": 702662}
+{"city": "Semysotka", "id": 694554}
+{"city": "Chernyakovo", "id": 710655}
+{"city": "Varvarivka", "id": 690466}
+{"city": "Dzhardzhava", "id": 796931}
+{"city": "Novoivanivka", "id": 699550}
+{"city": "Besharan’", "id": 712236}
+{"city": "Zorkine", "id": 686850}
+{"city": "Mays’ke", "id": 701491}
+{"city": "Dzhankoy", "id": 709334}
+{"city": "Dymovka", "id": 709367}
+{"city": "Kerleut", "id": 706515}
+{"city": "Prydorozhnye", "id": 696313}
+{"city": "Yermakove", "id": 688122}
+{"city": "Medvedivka", "id": 701453}
+{"city": "Krasnoperekopsk", "id": 704362}
+{"city": "Khersons’ka Oblast’", "id": 706442}
+{"city": "Ataman’", "id": 710413}
+{"city": "Chernihivka", "id": 688986}
+{"city": "Yasna Polyana", "id": 688357}
+{"city": "Odes’ka Oblast’", "id": 698738}
+{"city": "Novooleksiyivka", "id": 699706}
+{"city": "Partyzany", "id": 697957}
+{"city": "Novotroyitske", "id": 699100}
+{"city": "Rozy Lyuksemburh", "id": 695347}
+{"city": "Sredniy Fontan", "id": 692995}
+{"city": "Malyy Fontan", "id": 701965}
+{"city": "Pokrovka", "id": 696740}
+{"city": "Odessa", "id": 698740}
+{"city": "Krivaya Balka", "id": 704051}
+{"city": "Hola Prystan", "id": 708632}
+{"city": "Mykolayivs’ka Oblast’", "id": 700567}
+{"city": "Pokrovs’ke", "id": 696722}
+{"city": "Bol’shaya Balka", "id": 711820}
+{"city": "Kholodnaya Balka", "id": 706333}
+{"city": "Atestovo", "id": 713135}
+{"city": "Imeni Lenina", "id": 707647}
+{"city": "Zaporiz’ka Oblast’", "id": 687699}
+{"city": "Yakymivka", "id": 713743}
+{"city": "Sosnovka", "id": 693080}
+{"city": "Dmitriyevka", "id": 710013}
+{"city": "Berdyansk", "id": 712451}
+{"city": "Matrosskaya Sloboda", "id": 701579}
+{"city": "Liski", "id": 702962}
+{"city": "Danylo-Ivanivka", "id": 710299}
+{"city": "Melitopol", "id": 701404}
+{"city": "Chervonoznamenka", "id": 710531}
+{"city": "Novobohdanivka", "id": 699657}
+{"city": "Vysoke", "id": 688681}
+{"city": "Malyy Tokmak", "id": 701932}
+{"city": "Tokmak", "id": 691469}
+{"city": "Khozyain", "id": 706225}
+{"city": "Zeleny Hay", "id": 687345}
+{"city": "Vasylivka", "id": 686729}
+{"city": "Yanchekrak", "id": 706967}
+{"city": "Hulyaypole", "id": 707898}
+{"city": "Hryhorivka", "id": 708120}
+{"city": "Kushuhum", "id": 703555}
+{"city": "Balabine", "id": 712934}
+{"city": "Demidovka", "id": 710189}
+{"city": "Nikolayevka", "id": 700151}
+{"city": "Mokroye", "id": 700871}
+{"city": "Zaporozh’ye Levoye", "id": 687676}
+{"city": "Matveyevka", "id": 701587}
+{"city": "Shëlokovyy", "id": 694240}
+{"city": "Dnipropetrovska Oblast'", "id": 709929}
+{"city": "Ageyevka", "id": 713760}
+{"city": "Luhans’ka Oblast’", "id": 702657}
+{"city": "Birjukowo", "id": 712142}
+{"city": "Gnorovskoye", "id": 708662}
+{"city": "Vuglyar", "id": 688828}
+{"city": "Putilovka", "id": 696010}
+{"city": "Aleksandro-Grigor’yevka", "id": 713698}
+{"city": "Chernivets’ka Oblast’", "id": 710720}
+{"city": "Gogulina", "id": 708633}
+{"city": "Kirovohrads’ka Oblast’", "id": 705811}
+{"city": "Ul’yanovka", "id": 690713}
+{"city": "Bol’shiye Troyany", "id": 711756}
+{"city": "Pridneprovsk", "id": 696317}
+{"city": "Lozovatka Vtoraya", "id": 702765}
+{"city": "Nizhnedneprovsk", "id": 700022}
+{"city": "Khotyn", "id": 706244}
+{"city": "Shevchenko Vtoroy", "id": 694117}
+{"city": "Kolomyya", "id": 705392}
+{"city": "Khmel’nyts’ka Oblast’", "id": 706370}
+{"city": "Ataki", "id": 713142}
+{"city": "Sokolovo", "id": 693250}
+{"city": "Goryanovskoye", "id": 708266}
+{"city": "Frunzenskiy", "id": 709077}
+{"city": "Zakarpats’ka Oblast’", "id": 687869}
+{"city": "Mynay", "id": 701091}
+{"city": "Meliorativnoye", "id": 701405}
+{"city": "Golubinoye", "id": 708545}
+{"city": "Novomoskovsk", "id": 699445}
+{"city": "Orlovshchina", "id": 698362}
+{"city": "Krasnyy", "id": 704232}
+{"city": "Uzhhorod", "id": 690548}
+{"city": "Peschanka", "id": 697536}
+{"city": "Ternopil’s’ka Oblast’", "id": 691649}
+{"city": "Zalishchyky", "id": 687826}
+{"city": "Reshetilovskiy Kut", "id": 695641}
+{"city": "Ol’khovtsy", "id": 698542}
+{"city": "Cherkas’ka Oblast’", "id": 710802}
+{"city": "Hromy", "id": 830068}
+{"city": "Kamieniec Podolski", "id": 706950}
+{"city": "Zin’kovtsy", "id": 686949}
+{"city": "Pudlovtsy", "id": 696071}
+{"city": "Kolubayevtsy", "id": 705282}
+{"city": "Kharkivs’ka Oblast’", "id": 706482}
+{"city": "Chernyaki", "id": 806450}
+{"city": "Sokol’nyky", "id": 6722149}
+{"city": "Vovchansk", "id": 689304}
+{"city": "Uzenbash", "id": 690553}
+{"city": "Pokotylivka", "id": 696743}
+{"city": "Lipovaya Rosheha", "id": 703014}
+{"city": "Nadtochiv", "id": 812803}
+{"city": "Pesochin", "id": 697488}
+{"city": "Sinolitsovka", "id": 812806}
+{"city": "Lyubotyn", "id": 702417}
+{"city": "Dal'nya Zhuravlivka", "id": 6723020}
+{"city": "Kharkiv", "id": 706483}
+{"city": "Losevo", "id": 812917}
+{"city": "Chunikhin", "id": 812926}
+{"city": "Imeni Frunze", "id": 806512}
+{"city": "Shelkovichnoye", "id": 694246}
+{"city": "Marta", "id": 6982974}
+{"city": "Shevchenka", "id": 6725648}
+{"city": "Kozacha Lopan’", "id": 706587}
+{"city": "Il’icha", "id": 6725459}
+{"city": "Slatino", "id": 693598}
+{"city": "Vysokyy", "id": 688696}
+{"city": "Pivdenne", "id": 697135}
+{"city": "Komarovka", "id": 705240}
+{"city": "Artemovka", "id": 713178}
+{"city": "Merefa", "id": 701347}
+{"city": "Krasnyy Oktyabr’", "id": 812877}
+{"city": "Karlovka", "id": 706748}
+{"city": "Kislovskiy", "id": 812881}
+{"city": "Vasil’yevo-Grigor’yevskiy", "id": 808864}
+{"city": "Novo-Nikolayevka", "id": 699406}
+{"city": "Rodomyslovka", "id": 695570}
+{"city": "Kooperatorka", "id": 809657}
+{"city": "Zakutnevka", "id": 687835}
+{"city": "Yelizavetovka", "id": 688170}
+{"city": "Krasnopavlivka", "id": 704363}
+{"city": "Privol’ye", "id": 808926}
+{"city": "Novo Ivanovka", "id": 808841}
+{"city": "Otdokhnina", "id": 808832}
+{"city": "Chervona-Shakhtarka", "id": 710600}
+{"city": "Kostyanka", "id": 808829}
+{"city": "Poltavskoye", "id": 696628}
+{"city": "Panyutyne", "id": 698003}
+{"city": "Nestileyevka", "id": 700272}
+{"city": "Novo-Aleksandrovka", "id": 699718}
+{"city": "Yur”yivka", "id": 688022}
+{"city": "Varvarovka", "id": 690454}
+{"city": "Verbovatovka", "id": 689985}
+{"city": "Nizhnyanka", "id": 699967}
+{"city": "Verbki", "id": 689997}
+{"city": "Zelënyy", "id": 687363}
+{"city": "Nikiforovskiy", "id": 700201}
+{"city": "Ivanovskiy", "id": 707356}
+{"city": "Zaporizhzhya", "id": 687700}
+{"city": "Malokaterynivka", "id": 702072}
+{"city": "Prymors’ke", "id": 696278}
+{"city": "Belitskiy", "id": 712615}
+{"city": "Verkhnya Krynytsya", "id": 689845}
+{"city": "Burchak", "id": 711165}
+{"city": "Orekhovskiy", "id": 698410}
+{"city": "Vishnëvyy", "id": 689482}
+{"city": "Pryshyb", "id": 696262}
+{"city": "Novofëdorovka", "id": 699606}
+{"city": "Dalëkiy", "id": 710324}
+{"city": "Kommercheskiy", "id": 705214}
+{"city": "Dolyns’ke", "id": 707592}
+{"city": "Gutertal’", "id": 707800}
+{"city": "Volodymyrivka", "id": 689416}
+{"city": "Svobodnaya Zhizn’", "id": 692035}
+{"city": "Semikhatka", "id": 694568}
+{"city": "Pikalovka", "id": 697244}
+{"city": "Sokolohirne", "id": 693269}
+{"city": "Novoyefremivka", "id": 7048362}
+{"city": "Kommunarskoye", "id": 7046810}
+{"city": "Moskalenka", "id": 7046808}
+{"city": "Dobroye Utro", "id": 709865}
+{"city": "Shchorsivka", "id": 7032306}
+{"city": "Sal’kove", "id": 7046678}
+{"city": "Krasne Znam”ya", "id": 7046679}
+{"city": "Novyy Trud", "id": 7046674}
+{"city": "Chonhar", "id": 7031339}
+{"city": "Solone Ozero", "id": 693226}
+{"city": "Kopani", "id": 705053}
+{"city": "Stovpove", "id": 692505}
+{"city": "Mamut", "id": 701922}
+{"city": "Vitvyste", "id": 7021061}
+{"city": "Ostrovs’ke", "id": 691842}
+{"city": "Izumrudne", "id": 7021003}
+{"city": "Tymofiyivka", "id": 7020273}
+{"city": "Blyzhn’ohorods’ke", "id": 712053}
+{"city": "Arbuzivka", "id": 706811}
+{"city": "Dibrivka", "id": 7019906}
+{"city": "Krasnoye Znamya", "id": 704253}
+{"city": "Pushkine", "id": 691160}
+{"city": "Krasnohvardiys’ke", "id": 704381}
+{"city": "Mare", "id": 701862}
+{"city": "Yantarne", "id": 7018912}
+{"city": "Krasnyy Partyzan", "id": 7018274}
+{"city": "Borangar", "id": 711681}
+{"city": "Baglikovo", "id": 712987}
+{"city": "Poltavka", "id": 7018275}
+{"city": "Tsvitkove", "id": 691064}
+{"city": "Amurs’ke", "id": 713505}
+{"city": "Oktyabrs’ke", "id": 698652}
+{"city": "Alabash Konrat", "id": 713724}
+{"city": "Novoandriyivka", "id": 6981130}
+{"city": "Dzhaga-Mamysh", "id": 709344}
+{"city": "Krasna Zor’ka", "id": 704431}
+{"city": "Hvardiys’ke", "id": 707777}
+{"city": "Malen’ke", "id": 6980613}
+{"city": "Novyy Sarabuz", "id": 698873}
+{"city": "Komsomols’ke", "id": 6976172}
+{"city": "Kakhovskoye", "id": 707240}
+{"city": "Ukrayinka", "id": 690788}
+{"city": "Molochne", "id": 6974770}
+{"city": "Chysten’ke", "id": 710454}
+{"city": "Pryyatne Svidannya", "id": 6974516}
+{"city": "Topoli", "id": 7040002}
+{"city": "Poshtove", "id": 696999}
+{"city": "Samokhvalove", "id": 7040016}
+{"city": "Aromatne", "id": 7040021}
+{"city": "Vulino", "id": 688826}
+{"city": "Krasnoarmeyskoye", "id": 704416}
+{"city": "Kocherhine", "id": 7040014}
+{"city": "Otesh-Eli", "id": 698166}
+{"city": "Nagornoye", "id": 700490}
+{"city": "Malovydne", "id": 7040022}
+{"city": "Male Sadove", "id": 7021078}
+{"city": "Nyzhnya Holubynka", "id": 7021112}
+{"city": "Pyrohivka", "id": 7040140}
+{"city": "Verkhn’osadove", "id": 689905}
+{"city": "Semarenka", "id": 7040142}
+{"city": "Fruktove", "id": 709083}
+{"city": "Pavlohrad", "id": 697889}
+{"city": "Aromat", "id": 7021138}
+{"city": "Dzhefar-Berdy", "id": 709325}
+{"city": "Lazarivka", "id": 6986274}
+{"city": "Terenair", "id": 691679}
+{"city": "Denysivka", "id": 710141}
+{"city": "Druzhne", "id": 6986279}
+{"city": "Ayans’ke Dzherelo", "id": 713099}
+{"city": "Rozovyy", "id": 6987036}
+{"city": "Lavanda", "id": 6988139}
+{"city": "Rybache", "id": 695053}
+{"city": "Pryvitne", "id": 696240}
+{"city": "Bobritsa", "id": 712005}
+{"city": "Verbovka", "id": 689974}
+{"city": "Hresivs’kyy", "id": 708140}
+{"city": "Krenichi", "id": 704121}
+{"city": "Staraya Darnitsa", "id": 692909}
+{"city": "Krasnyy Prohres", "id": 8037857}
+{"city": "Lug", "id": 702694}
+{"city": "Fasovaya", "id": 709250}
+{"city": "Eriklik", "id": 709273}
+{"city": "Oktyabrs’kyy", "id": 7019825}
+{"city": "Il’ichëvskoye", "id": 707711}
+{"city": "Nizhniye Partizany", "id": 699989}
+{"city": "Tretiy Samostriy", "id": 6983015}
+{"city": "Belostadnoye", "id": 712548}
+{"city": "Simferopol", "id": 693805}
+{"city": "Askaniya Nova", "id": 713154}
+{"city": "Manchzhuriya", "id": 701911}
+{"city": "Kislitskiy", "id": 705758}
+{"city": "Shevchenko", "id": 694165}
+{"city": "Imeni Artëma", "id": 707663}
+{"city": "Novoaydar", "id": 699677}
+{"city": "Ivanenki", "id": 707511}
+{"city": "Khartsyzsk", "id": 706466}
+{"city": "Chagor", "id": 710958}
+{"city": "Shestakovka", "id": 694197}
+{"city": "Zhovtnevoye", "id": 687060}
+{"city": "Klimashëvka", "id": 705652}
+{"city": "Sobatin", "id": 693360}
+{"city": "Kulebovka", "id": 703728}
+{"city": "Sevastyanivka", "id": 7040018}
+{"city": "Druzhkovka", "id": 616743}
+{"city": "Kherson", "id": 706448}
+{"city": "Nyzhnohirskyy", "id": 700019}
+{"city": "L’vivs’ka Oblast’", "id": 702549}
+{"city": "Lviv", "id": 702550}
+{"city": "Ternopil", "id": 691650}
+{"city": "Zmiyev", "id": 686928}
+{"city": "Chervonograd", "id": 710554}
+{"city": "Volyns’ka Oblast’", "id": 689064}
+{"city": "Lutsk", "id": 702569}
+{"city": "Vyshhorod", "id": 688723}
+{"city": "Kirovohrad", "id": 705812}
+{"city": "Nikopol", "id": 700051}
+{"city": "Chornobyl’", "id": 710403}
+{"city": "Polohy", "id": 696677}
+{"city": "Vodyane", "id": 689321}
+{"city": "Sumy", "id": 692194}
+{"city": "Chernihiv", "id": 710735}
+{"city": "Cherkasy", "id": 710791}
+{"city": "Khmelnytskyy", "id": 706369}
+{"city": "Gorki", "id": 708421}
+{"city": "Irpin", "id": 707565}
+{"city": "Poltavs’ka Oblast’", "id": 696634}
+{"city": "Stakhanov", "id": 692975}
+{"city": "Syeverodonetsk", "id": 691999}
+{"city": "Alchevsk", "id": 713716}
+{"city": "Fastiv", "id": 709248}
+{"city": "Vynohradiv", "id": 688746}
+{"city": "Rivnens’ka Oblast’", "id": 695592}
+{"city": "Kuznetsovsk", "id": 703464}
+{"city": "Khust", "id": 706165}
+{"city": "Vinnyts’ka Oblast’", "id": 689559}
+{"city": "Kozyatyn", "id": 706571}
+{"city": "Lisichansk", "id": 702972}
+{"city": "Derhachy", "id": 710098}
+{"city": "Nizhyn", "id": 699942}
+{"city": "Illichivsk", "id": 707688}
+{"city": "Kalush", "id": 707099}
+{"city": "Ovidiopol", "id": 698138}
+{"city": "Izmayil", "id": 707308}
+{"city": "Kuznetsovka", "id": 810039}
+{"city": "Sharhorod", "id": 694350}
+{"city": "Plenenfel’d", "id": 697107}
+{"city": "Konotop", "id": 705135}
+{"city": "Zolotonosha", "id": 686875}
+{"city": "Zdolbuniv", "id": 687432}
+{"city": "Trostyanets", "id": 691255}
+{"city": "Tyachiv", "id": 690906}
+{"city": "Sloviansk", "id": 693468}
+{"city": "Vasylkiv", "id": 690412}
+{"city": "Obukhiv", "id": 698782}
+{"city": "Korolevo", "id": 704920}
+{"city": "Irshava", "id": 707559}
+{"city": "Artëmovskiy Rayon", "id": 713171}
+{"city": "Skadovsk", "id": 693709}
+{"city": "Yablon’ki", "id": 688628}
+{"city": "Malyn", "id": 702116}
+{"city": "Teofipol’", "id": 691715}
+{"city": "Letychiv", "id": 703142}
+{"city": "Volochys’k", "id": 689159}
+{"city": "Izyaslav", "id": 707296}
+{"city": "Slavuta", "id": 693581}
+{"city": "Shepetivka", "id": 694216}
+{"city": "Netishyn", "id": 700261}
+{"city": "Sloboda Zasluch’", "id": 693514}
+{"city": "Shostka", "id": 693942}
+{"city": "Volodymyr-Volynskyy", "id": 689378}
+{"city": "Marhanets", "id": 701855}
+{"city": "Vinnytsya", "id": 689558}
+{"city": "Nemyriv", "id": 700322}
+{"city": "Nadychi", "id": 700500}
+{"city": "Krasyliv", "id": 704492}
+{"city": "Nadvirna", "id": 700507}
+{"city": "Karnaukhovka", "id": 706736}
+{"city": "Perkovtsy", "id": 697628}
+{"city": "Teplogorsk", "id": 691705}
+{"city": "Chuhuyiv", "id": 710374}
+{"city": "Artëmovsk", "id": 713175}
+{"city": "Sursko-Litovskoye", "id": 692176}
+{"city": "Dniprodzerzhynsk", "id": 709932}
+{"city": "Taburishche", "id": 691959}
+{"city": "Burshtyn", "id": 711134}
+{"city": "Uman", "id": 690688}
+{"city": "Boyarka", "id": 711515}
+{"city": "Chudniv", "id": 710381}
+{"city": "Novyy Chudnov", "id": 698949}
+{"city": "Chop", "id": 710409}
+{"city": "Barmashovo", "id": 712808}
+{"city": "Sokal", "id": 693301}
+{"city": "Oster", "id": 698247}
+{"city": "Velyka Oleksandrivka", "id": 690288}
+{"city": "Nikolaypol’ye", "id": 700079}
+{"city": "Gubinikha", "id": 707928}
+{"city": "Poltava", "id": 696643}
+{"city": "Paraskoveyevka", "id": 697994}
+{"city": "Krasnoarmiysk", "id": 704422}
+{"city": "Derazhnya", "id": 710129}
+{"city": "Polonne", "id": 696660}
+{"city": "Sarny", "id": 694792}
+{"city": "Nyzhni Sirohozy", "id": 699986}
+{"city": "Krynychky", "id": 704079}
+{"city": "Velyka Bilozerka", "id": 690281}
+{"city": "Vysokopillya", "id": 688689}
+{"city": "Chervonyy Pakhar’", "id": 710513}
+{"city": "Snihurivka", "id": 693379}
+{"city": "Toshkovka", "id": 691355}
+{"city": "Valky", "id": 690509}
+{"city": "Solone", "id": 693231}
+{"city": "Rzhyshchiv", "id": 694992}
+{"city": "Chutove", "id": 710342}
+{"city": "Volnovakha", "id": 689198}
+{"city": "Sambir", "id": 694864}
+{"city": "Lokachi", "id": 702878}
+{"city": "Yarizovka", "id": 688451}
+{"city": "Peremyshlyany", "id": 697692}
+{"city": "Ochakiv", "id": 698770}
+{"city": "Gornyak", "id": 708395}
+{"city": "Kreminna", "id": 704138}
+{"city": "Rozhyshche", "id": 695326}
+{"city": "Sudovaya Vishnya", "id": 692301}
+{"city": "Auly", "id": 713126}
+{"city": "Vasyshcheve", "id": 690335}
+{"city": "Makariv", "id": 702337}
+{"city": "Mar’yevka", "id": 701650}
+{"city": "Primorskoye", "id": 696280}
+{"city": "Makiyivka", "id": 702320}
+{"city": "Vil’nohirs’k", "id": 689200}
+{"city": "Ostroh", "id": 698232}
+{"city": "Lopatin", "id": 702844}
+{"city": "Bryukhovychi", "id": 711359}
+{"city": "Avdeyevka", "id": 713122}
+{"city": "Balakliya", "id": 712926}
+{"city": "Turka", "id": 690960}
+{"city": "Brusyliv", "id": 711382}
+{"city": "Zhovkva", "id": 687093}
+{"city": "Narkevychi", "id": 829788}
+{"city": "Stryi", "id": 692372}
+{"city": "Kamenka-Na-Dnepre", "id": 707026}
+{"city": "Novovorontsovka", "id": 699034}
+{"city": "Torez", "id": 691374}
+{"city": "Pustomyty", "id": 696032}
+{"city": "Zachepylivka", "id": 687933}
+{"city": "Chernyakhiv", "id": 710663}
+{"city": "Stebnik", "id": 692632}
+{"city": "Tel’manove", "id": 691741}
+{"city": "Kovel", "id": 704617}
+{"city": "Zhurivka", "id": 687277}
+{"city": "Zhmerynka", "id": 687116}
+{"city": "Krasnyy Liman", "id": 704204}
+{"city": "Olevsk", "id": 698597}
+{"city": "Debaltsevo", "id": 710229}
+{"city": "Rudniki", "id": 695209}
+{"city": "Bashtanka", "id": 712775}
+{"city": "Mena", "id": 701372}
+{"city": "Dymer", "id": 709373}
+{"city": "Zlatopol’", "id": 686943}
+{"city": "Prymorsk", "id": 696292}
+{"city": "Gorodishche", "id": 708367}
+{"city": "Krolevets", "id": 704000}
+{"city": "Savkino", "id": 806930}
+{"city": "Shpola", "id": 693920}
+{"city": "Apostolove", "id": 713245}
+{"city": "Myronivka", "id": 701031}
+{"city": "Boryslav", "id": 711669}
+{"city": "Belz", "id": 712471}
+{"city": "Morshin", "id": 700753}
+{"city": "Korostyshiv", "id": 704885}
+{"city": "Berdychiv", "id": 712441}
+{"city": "Korosten", "id": 704901}
+{"city": "Butovka", "id": 810965}
+{"city": "Hadyach", "id": 709054}
+{"city": "Velyka Lepetykha", "id": 690247}
+{"city": "Klyuchevaya", "id": 705598}
+{"city": "Hnivan’", "id": 708663}
+{"city": "Antratsit", "id": 713259}
+{"city": "Mala Bilozerka", "id": 702246}
+{"city": "Yavoriv", "id": 688288}
+{"city": "Vyshchetarasivka", "id": 688663}
+{"city": "Kotel’va", "id": 704705}
+{"city": "Chervonohryhorivka", "id": 710552}
+{"city": "Dz’vinogrud", "id": 709296}
+{"city": "Armyansk", "id": 713203}
+{"city": "Pryluky", "id": 696108}
+{"city": "Drogobych", "id": 709611}
+{"city": "Romny", "id": 695464}
+{"city": "Dubno", "id": 709540}
+{"city": "Svalyava", "id": 692129}
+{"city": "Tsyurupynsk", "id": 691037}
+{"city": "Radomyshl", "id": 695912}
+{"city": "Sukharka", "id": 692287}
+{"city": "Baryshivka", "id": 712787}
+{"city": "Troyits’ko-Khartsyz’k", "id": 691293}
+{"city": "Smila", "id": 693457}
+{"city": "Lyman", "id": 703071}
+{"city": "Kivertsy", "id": 705730}
+{"city": "Storozhynets’", "id": 692487}
+{"city": "Vel'ky Sevl'yush", "id": 690043}
+{"city": "Horodnya", "id": 708320}
+{"city": "Selidovo", "id": 694677}
+{"city": "Alekseyevo-Druzhkovka", "id": 713544}
+{"city": "Oleksandriya", "id": 698625}
+{"city": "Novovolynsk", "id": 699035}
+{"city": "Verkhn’odniprovs’k", "id": 689916}
+{"city": "Synelnykove", "id": 693796}
+{"city": "Ilovaysk", "id": 707679}
+{"city": "Kabachki", "id": 809274}
+{"city": "Haysyn", "id": 708901}
+{"city": "Lubny", "id": 702723}
+{"city": "Balta", "id": 712886}
+{"city": "Hlukhiv", "id": 707758}
+{"city": "Dvorichna", "id": 709399}
+{"city": "Tavriys’k", "id": 865729}
+{"city": "Kiliya", "id": 705883}
+{"city": "Brody", "id": 711416}
+{"city": "Artemivsk", "id": 713174}
+{"city": "Bryanka", "id": 711369}
+{"city": "Korotych", "id": 704881}
+{"city": "Dykanka", "id": 710041}
+{"city": "Narodychi", "id": 700446}
+{"city": "Tysmenytsya", "id": 690873}
+{"city": "Kirovo", "id": 705818}
+{"city": "Kozova", "id": 704525}
+{"city": "Ivano-Frankove", "id": 686762}
+{"city": "Teplodar", "id": 865087}
+{"city": "Perevalsk", "id": 697650}
+{"city": "Parizhskaya Kommuna", "id": 697979}
+{"city": "Dilyatyn", "id": 710202}
+{"city": "Skakunka", "id": 693705}
+{"city": "Rozdilna", "id": 695344}
+{"city": "Novo-Nikolayevskiy", "id": 699403}
+{"city": "Krasnyy Luch", "id": 704202}
+{"city": "Bohodukhiv", "id": 711894}
+{"city": "Reni", "id": 695670}
+{"city": "Bohuslav", "id": 711867}
+{"city": "Tatarbunary", "id": 691803}
+{"city": "Okhtyrka", "id": 713749}
+{"city": "Khyriv", "id": 705914}
+{"city": "Novoazovsk", "id": 699675}
+{"city": "Novo-Uspenka", "id": 699066}
+{"city": "Chortkiv", "id": 710400}
+{"city": "Popova", "id": 696542}
+{"city": "Chornobay", "id": 710716}
+{"city": "Truskavets", "id": 691179}
+{"city": "Starobilsk", "id": 692832}
+{"city": "Kremenets", "id": 704143}
+{"city": "Sukhodol’sk", "id": 692254}
+{"city": "Zhytomyr", "id": 686967}
+{"city": "Berezan’", "id": 712389}
+{"city": "Vorzel", "id": 688956}
+{"city": "Ivankiv", "id": 707489}
+{"city": "Kel’mentsi", "id": 706536}
+{"city": "Yasinovataya", "id": 688373}
+{"city": "Soledar", "id": 706757}
+{"city": "Belokamenskoye", "id": 712575}
+{"city": "Rubizhne", "id": 695274}
+{"city": "Mar’inka", "id": 701845}
+{"city": "Kaharlyk", "id": 707251}
+{"city": "Dzerzhynsk", "id": 709354}
+{"city": "Gavrilovka", "id": 708928}
+{"city": "Vil’nyans’k", "id": 689584}
+{"city": "Ugledar", "id": 690823}
+{"city": "Yavoruv", "id": 688279}
+{"city": "Horodenka", "id": 708380}
+{"city": "Rakhiv", "id": 695859}
+{"city": "Orativ", "id": 698450}
+{"city": "Pereyaslav-Khmelnytskyy", "id": 697637}
+{"city": "Bolhrad", "id": 711841}
+{"city": "Zabolotiv", "id": 687965}
+{"city": "Skvyra", "id": 693615}
+{"city": "Chervonopartizansk", "id": 710548}
+{"city": "Korsun-Shevchenkivskyy", "id": 704858}
+{"city": "Turiysk", "id": 690963}
+{"city": "Kakhovka", "id": 707244}
+{"city": "Hlobyne", "id": 708753}
+{"city": "Gorishni Plavni", "id": 708431}
+{"city": "Nove-Misto", "id": 699761}
+{"city": "Bilovodsk", "id": 712521}
+{"city": "Myrhorod", "id": 701075}
+{"city": "Glevakha", "id": 708784}
+{"city": "Koryukivka", "id": 704839}
+{"city": "Zhashkiv", "id": 687245}
+{"city": "Krasnohrad", "id": 704388}
+{"city": "Bohorodchany", "id": 711887}
+{"city": "Kaniv", "id": 706900}
+{"city": "Zbarazh", "id": 687455}
+{"city": "Radyvyliv", "id": 710565}
+{"city": "Kurakhovo", "id": 703646}
+{"city": "Sarata", "id": 694812}
+{"city": "Pidvolochys’k", "id": 696823}
+{"city": "Uzyn", "id": 690545}
+{"city": "Golta", "id": 708553}
+{"city": "Zuhres", "id": 686818}
+{"city": "Vatutine", "id": 690312}
+{"city": "Rovenki", "id": 695379}
+{"city": "Yenakiyeve", "id": 688148}
+{"city": "Sverdlovsk", "id": 692105}
+{"city": "Ichnya", "id": 707744}
+{"city": "Zboriv", "id": 687449}
+{"city": "Kalyniv", "id": 707189}
+{"city": "Svatove", "id": 692118}
+{"city": "Kotovsk", "id": 704679}
+{"city": "Novomyrhorod", "id": 699453}
+{"city": "Volodarka", "id": 689157}
+{"city": "Voznesensk", "id": 688860}
+{"city": "Kostopil’", "id": 704737}
+{"city": "Novogrodovka", "id": 699557}
+{"city": "Dluga-Strona", "id": 710020}
+{"city": "Novopskov", "id": 699311}
+{"city": "Putyvl", "id": 696008}
+{"city": "Mezhova", "id": 701305}
+{"city": "Klevan’", "id": 705660}
+{"city": "Komarno", "id": 705265}
+{"city": "Nova Vodolaha", "id": 699777}
+{"city": "Katerynopil’", "id": 706634}
+{"city": "Bershad’", "id": 712250}
+{"city": "Kopychyntsi", "id": 705016}
+{"city": "Sel’tse", "id": 694656}
+{"city": "Olesko", "id": 698598}
+{"city": "Znomenka", "id": 686919}
+{"city": "Yarmolyntsi", "id": 688440}
+{"city": "Slavyanoserbsk", "id": 810784}
+{"city": "Mala Danylivka", "id": 702231}
+{"city": "Kalanchak", "id": 707232}
+{"city": "Bilozerka", "id": 712508}
+{"city": "Illarionovo", "id": 707689}
+{"city": "Volodarskoye", "id": 689151}
+{"city": "Kolomak", "id": 705403}
+{"city": "Borshchiv", "id": 711587}
+{"city": "Simeiz", "id": 693809}
+{"city": "Tlumach", "id": 691497}
+{"city": "Usatove", "id": 690648}
+{"city": "Dunaivtsi", "id": 709429}
+{"city": "Ladyzhyn", "id": 703428}
+{"city": "Manhush", "id": 697613}
+{"city": "Terebovlya", "id": 691693}
+{"city": "Perechyn", "id": 697750}
+{"city": "Beryslav", "id": 712260}
+{"city": "Pryazovs’ke", "id": 696332}
+{"city": "Sutysky", "id": 692146}
+{"city": "Savran", "id": 694745}
+{"city": "Reshetylivka", "id": 695643}
+{"city": "Chasov Yar", "id": 710915}
+{"city": "Uglegorsk", "id": 690822}
+{"city": "Nestervarka", "id": 700273}
+{"city": "Snizhne", "id": 693381}
+{"city": "Kobelyaky", "id": 705544}
+{"city": "Barvinkove", "id": 712794}
+{"city": "Mikulintsy", "id": 701119}
+{"city": "Staroverovka", "id": 692786}
+{"city": "Velikiy Berëznyy", "id": 690197}
+{"city": "Vugrinivka", "id": 688827}
+{"city": "Kalinova Popasnaya", "id": 707133}
+{"city": "Veselynove", "id": 689717}
+{"city": "Mospyne", "id": 700700}
+{"city": "Manevichi", "id": 701906}
+{"city": "Snyatyn", "id": 693365}
+{"city": "Grebënki", "id": 708179}
+{"city": "Kozelets", "id": 704573}
+{"city": "Chaplynka", "id": 710935}
+{"city": "Amvrosiyivka", "id": 713504}
+{"city": "Uspenka", "id": 690629}
+{"city": "Chopovychi", "id": 710408}
+{"city": "Gorokhov", "id": 708296}
+{"city": "Chyhyryn", "id": 710473}
+{"city": "Nosivka", "id": 699917}
+{"city": "Galich", "id": 709034}
+{"city": "Zinkiv", "id": 687292}
+{"city": "Varshitsa", "id": 690471}
+{"city": "Tomakivka", "id": 691435}
+{"city": "Panteleymonovka", "id": 698006}
+{"city": "Dolyna", "id": 709755}
+{"city": "Khorol", "id": 706289}
+{"city": "Zhovti Vody", "id": 687196}
+{"city": "Tymoshivka", "id": 691526}
+{"city": "Anan’yiv", "id": 713500}
+{"city": "Krasnyy Pakhar’", "id": 810074}
+{"city": "Bilopillya", "id": 712559}
+{"city": "Ivano-Frankivsk", "id": 707471}
+{"city": "Kotsyubinskoye", "id": 704670}
+{"city": "Yelanets’", "id": 688221}
+{"city": "Belyary", "id": 712492}
+{"city": "Staryy Sambor", "id": 692702}
+{"city": "Bohdanivka", "id": 707202}
+{"city": "Novohrad-Volynskyy", "id": 699553}
+{"city": "Ovruch", "id": 698131}
+{"city": "Slavutich", "id": 6930327}
+{"city": "Pirogovichi", "id": 697196}
+{"city": "Ivan’kov", "id": 707488}
+{"city": "Varva", "id": 690469}
+{"city": "Voronezh", "id": 689025}
+{"city": "Novoarkhanhelsk", "id": 699680}
+{"city": "Shatsk", "id": 694333}
+{"city": "Zhidachov", "id": 618835}
+{"city": "Kamionka Strumitowa", "id": 707027}
+{"city": "Sokyryany", "id": 693284}
+{"city": "Hlyboka", "id": 707757}
+{"city": "Kupjansk", "id": 703656}
+{"city": "Izyum", "id": 707292}
+{"city": "Pervomays’kyy", "id": 697576}
+{"city": "Komsomolske", "id": 705183}
+{"city": "Petrovskoye", "id": 697276}
+{"city": "Aleksandrinka", "id": 713709}
+{"city": "Energodar", "id": 709276}
+{"city": "Yuzhnoukrainsk", "id": 7525990}
+{"city": "Arbuzynka", "id": 713222}
+{"city": "Bilyayivka", "id": 712488}
+{"city": "Guchok", "id": 707921}
+{"city": "Mytnitsa", "id": 700544}
+{"city": "Protsevka", "id": 696136}
+{"city": "Kehychivka", "id": 706546}
+{"city": "Lymanske", "id": 703061}
+{"city": "Henichesk", "id": 708878}
+{"city": "Dubrovytsya", "id": 709493}
+{"city": "Rokytne", "id": 695516}
+{"city": "Stara Vyzhivka", "id": 692856}
+{"city": "Zhulyany", "id": 687021}
+{"city": "Sukhyy Lyman", "id": 692210}
+{"city": "Balovnoye", "id": 712887}
+{"city": "Sknyliv", "id": 693665}
+{"city": "Opryshovtse", "id": 698459}
+{"city": "Kirilovka", "id": 705844}
+{"city": "Molchany", "id": 812935}
+{"city": "Sarabuz Russkiy", "id": 694817}
+{"city": "Rodionovka", "id": 695579}
+{"city": "Krinichnyy", "id": 704067}
+{"city": "Kaydaki", "id": 706604}
+{"city": "Shmidta", "id": 693960}
+{"city": "Hora", "id": 8129116}
+{"city": "Zvenyhorodka", "id": 686803}
+{"city": "Yahotyn", "id": 688587}
+{"city": "Tulchyn", "id": 691016}
+{"city": "Svitlovodsk", "id": 692087}
+{"city": "Starokostyantyniv", "id": 692818}
+{"city": "Shakhtersk", "id": 694382}
+{"city": "Piatykhatky", "id": 695965}
+{"city": "Popasnaya", "id": 696566}
+{"city": "Pyryatyn", "id": 697183}
+{"city": "Orikhiv", "id": 698428}
+{"city": "Novyy Buh", "id": 698953}
+{"city": "Novoukrayinka", "id": 699078}
+{"city": "Nova Kakhovka", "id": 699839}
+{"city": "Mukacheve", "id": 700646}
+{"city": "Molodogvardeysk", "id": 700829}
+{"city": "Lutugino", "id": 702563}
+{"city": "Luhansk", "id": 702658}
+{"city": "Lozova", "id": 702760}
+{"city": "Kremenchuk", "id": 704147}
+{"city": "Kramatorsk", "id": 704508}
+{"city": "Kivsharivka", "id": 704608}
+{"city": "Kirovsk", "id": 705809}
+{"city": "Khmilnyk", "id": 706380}
+{"city": "Karlivka", "id": 706749}
+{"city": "Horlivka", "id": 707753}
+{"city": "Hayvoron", "id": 708898}
+{"city": "Dolynska", "id": 709782}
+{"city": "Dokuchayevsk", "id": 709835}
+{"city": "Dobropolye", "id": 709900}
+{"city": "Dniprorudne", "id": 709960}
+{"city": "Bila Tserkva", "id": 712165}
+{"city": "Bakhmach", "id": 712967}
+{"city": "Komsomolsk", "id": 6559559}
+{"city": "Tsibulev", "id": 691097}
+{"city": "Tsarychanka", "id": 691155}
+{"city": "Tripolye", "id": 691305}
+{"city": "Trebukhiv", "id": 691336}
+{"city": "Tovste", "id": 691444}
+{"city": "Tyshkivka", "id": 691510}
+{"city": "Tetiyiv", "id": 691578}
+{"city": "Terpinnya", "id": 691603}
+{"city": "Ternuvate", "id": 691639}
+{"city": "Teplyk", "id": 691708}
+{"city": "Tarutyne", "id": 691820}
+{"city": "Tarashcha", "id": 691904}
+{"city": "Talalayivka", "id": 691942}
+{"city": "Svyatogorsk", "id": 692016}
+{"city": "Svityaz", "id": 692039}
+{"city": "Svarychiv", "id": 692122}
+{"city": "Sursko-Mikhaylovka", "id": 692175}
+{"city": "Sukhovolya", "id": 692233}
+{"city": "Subottsi", "id": 692317}
+{"city": "Studenok", "id": 692352}
+{"city": "Strabychovo", "id": 692465}
+{"city": "Stetseva", "id": 692531}
+{"city": "Steblev", "id": 692638}
+{"city": "Staryy Saltov", "id": 692703}
+{"city": "Staryy Merchyk", "id": 692709}
+{"city": "Stari Kuty", "id": 692742}
+{"city": "Stari Bohorodchany", "id": 692749}
+{"city": "Starokozache", "id": 692819}
+{"city": "Starobesheve", "id": 692829}
+{"city": "Starychi", "id": 692844}
+{"city": "Stara Synyava", "id": 692866}
+{"city": "Stanislav", "id": 692944}
+{"city": "Serednye Vodyane", "id": 693001}
+{"city": "Sribne", "id": 693010}
+{"city": "Spasskoye", "id": 693028}
+{"city": "Spas", "id": 693044}
+{"city": "Sosnytsya", "id": 693100}
+{"city": "Solotvyno", "id": 693176}
+{"city": "Solotvyn", "id": 693178}
+{"city": "Solonka", "id": 693193}
+{"city": "Solonytsivka", "id": 693194}
+{"city": "Sobolivka", "id": 693348}
+{"city": "Slobidka", "id": 693510}
+{"city": "Sloboda", "id": 693546}
+{"city": "Slavske", "id": 693582}
+{"city": "Skole", "id": 693658}
+{"city": "Skhodnitsa", "id": 693679}
+{"city": "Skalat", "id": 693700}
+{"city": "Synevyrska Polyana", "id": 693789}
+{"city": "Synevyr", "id": 693791}
+{"city": "Sholokhove", "id": 693953}
+{"city": "Shklo", "id": 693995}
+{"city": "Shyshaky", "id": 694013}
+{"city": "Shyryayeve", "id": 694016}
+{"city": "Shypyntsi", "id": 694073}
+{"city": "Sheshory", "id": 694198}
+{"city": "Shchors", "id": 694273}
+{"city": "Shcherbinovka", "id": 694290}
+{"city": "Shalyhyne", "id": 694369}
+{"city": "Shabo", "id": 694392}
+{"city": "Seversk", "id": 694403}
+{"city": "Serpneve", "id": 694427}
+{"city": "Sergeyevka", "id": 694467}
+{"city": "Seredyna-Buda", "id": 694491}
+{"city": "Serebriya", "id": 694498}
+{"city": "Sencha", "id": 694548}
+{"city": "Semeykino", "id": 694579}
+{"city": "Selets", "id": 694691}
+{"city": "Syedove", "id": 694712}
+{"city": "Sedniv", "id": 694715}
+{"city": "Schastye", "id": 694725}
+{"city": "Savyntsi", "id": 694752}
+{"city": "Sakhnovshchyna", "id": 694919}
+{"city": "Sadzhavka", "id": 694934}
+{"city": "Rykhtichi", "id": 695026}
+{"city": "Rybakivka", "id": 695052}
+{"city": "Ruzhyn", "id": 695082}
+{"city": "Russkaya Polyana", "id": 695104}
+{"city": "Rudne", "id": 695205}
+{"city": "Rudki", "id": 695221}
+{"city": "Rozvadov", "id": 695298}
+{"city": "Rozhnyativ", "id": 695315}
+{"city": "Rozhniv", "id": 695320}
+{"city": "Rozdo", "id": 695342}
+{"city": "Roskoshnyy", "id": 695439}
+{"city": "Roskoshnoye", "id": 695441}
+{"city": "Ropcha", "id": 695459}
+{"city": "Romodan", "id": 695463}
+{"city": "Rokosovo", "id": 695515}
+{"city": "Rogatin", "id": 695559}
+{"city": "Rodnykove", "id": 695574}
+{"city": "Rodinskoye", "id": 695581}
+{"city": "Ripky", "id": 695653}
+{"city": "Rechka", "id": 695699}
+{"city": "Rozdolne", "id": 695740}
+{"city": "Ratne", "id": 695789}
+{"city": "Rassypnoye", "id": 695798}
+{"city": "Ralevka", "id": 695821}
+{"city": "Rakiv Lis", "id": 695826}
+{"city": "Rakoshyno", "id": 695844}
+{"city": "Radcha", "id": 695937}
+{"city": "Prudyanka", "id": 696127}
+{"city": "Pryyutivka", "id": 696204}
+{"city": "Pryvillya", "id": 696218}
+{"city": "Pryozerne", "id": 696275}
+{"city": "Prikolotnoye", "id": 696302}
+{"city": "Preobrazhenka", "id": 696348}
+{"city": "Poroshkovo", "id": 696478}
+{"city": "Porohy", "id": 696483}
+{"city": "Popilnya", "id": 696557}
+{"city": "Poninka", "id": 696576}
+{"city": "Pomichna", "id": 696581}
+{"city": "Pomoryany", "id": 696582}
+{"city": "Polyanka", "id": 696602}
+{"city": "Pohrebyshche", "id": 696771}
+{"city": "Pidvynohradiv", "id": 696824}
+{"city": "Podgortsy", "id": 696938}
+{"city": "Pidhorodna", "id": 696948}
+{"city": "Pidhaytsi", "id": 696966}
+{"city": "Podbuzh", "id": 696989}
+{"city": "Pochayiv", "id": 697006}
+{"city": "Pobugskoye", "id": 697018}
+{"city": "Pniv", "id": 697038}
+{"city": "Plakhtiyivka", "id": 697126}
+{"city": "Pylypets", "id": 697230}
+{"city": "Petrove", "id": 697325}
+{"city": "Petropavlivka", "id": 697423}
+{"city": "Petrivka", "id": 697450}
+{"city": "Petrykivka", "id": 697455}
+{"city": "Petrikov", "id": 697457}
+{"city": "Petranka", "id": 697473}
+{"city": "Piskivka", "id": 697489}
+{"city": "Peschana", "id": 697543}
+{"city": "Pervomayske", "id": 697568}
+{"city": "Pershotravneve", "id": 697608}
+{"city": "Peresichna", "id": 697676}
+{"city": "Perehonivka", "id": 697739}
+{"city": "Pechenizhyn", "id": 697802}
+{"city": "Pavlysh", "id": 697817}
+{"city": "Pasichna", "id": 697945}
+{"city": "Parutyne", "id": 697953}
+{"city": "Pantayivka", "id": 698008}
+{"city": "Ozerna", "id": 698110}
+{"city": "Otyniya", "id": 698142}
+{"city": "Osypenko", "id": 698316}
+{"city": "Orzhytsya", "id": 698346}
+{"city": "Oposhnya", "id": 698462}
+{"city": "Onufriyivka", "id": 698479}
+{"city": "Olyka", "id": 698502}
+{"city": "Olshanskoye", "id": 698510}
+{"city": "Olishevka", "id": 698570}
+{"city": "Obroshyne", "id": 698790}
+{"city": "Obodivka", "id": 698807}
+{"city": "Obertyn", "id": 698825}
+{"city": "Nuyno", "id": 698840}
+{"city": "Novyy Yarychiv", "id": 698852}
+{"city": "Novyy Starodub", "id": 698869}
+{"city": "Novi Troyany", "id": 698921}
+{"city": "Novi Sanzhary", "id": 698927}
+{"city": "Novi Bilokorovychi", "id": 698943}
+{"city": "Nove Davydkovo", "id": 699015}
+{"city": "Novovasylivka", "id": 699061}
+{"city": "Novoselitsa", "id": 699272}
+{"city": "Novoselytsya", "id": 699285}
+{"city": "Novonikolayevka", "id": 699410}
+{"city": "Novomykolayivka", "id": 699413}
+{"city": "Novofedorovka", "id": 699607}
+{"city": "Novytsya", "id": 699746}
+{"city": "Novhorod-Siverskyy", "id": 699753}
+{"city": "Novhorodka", "id": 699756}
+{"city": "Nova Praha", "id": 699802}
+{"city": "Nova Odesa", "id": 699811}
+{"city": "Nova Mayachka", "id": 699823}
+{"city": "Nova Borova", "id": 699882}
+{"city": "Nova Ushytsya", "id": 699899}
+{"city": "Nyzy", "id": 699933}
+{"city": "Nizhnyaya Krynka", "id": 699956}
+{"city": "Nyzhnya Duvanka", "id": 699963}
+{"city": "Neresnytsya", "id": 700295}
+{"city": "Nelipyno", "id": 700341}
+{"city": "Nedryhayliv", "id": 700371}
+{"city": "Nebyliv", "id": 700391}
+{"city": "Navariya", "id": 700410}
+{"city": "Murovani Kurylivtsi", "id": 700606}
+{"city": "Murovanoye", "id": 700607}
+{"city": "Moshny", "id": 700730}
+{"city": "Morskoye", "id": 700750}
+{"city": "Monastyryshche", "id": 700796}
+{"city": "Molodiya", "id": 700831}
+{"city": "Mlyniv", "id": 700964}
+{"city": "Mleyev", "id": 700967}
+{"city": "Mizoch", "id": 700974}
+{"city": "Miusinsk", "id": 700977}
+{"city": "Myrnyy", "id": 701057}
+{"city": "Milove", "id": 701104}
+{"city": "Myhove", "id": 701274}
+{"city": "Myhiya", "id": 701276}
+{"city": "Mizhvodne", "id": 701286}
+{"city": "Chudey", "id": 701294}
+{"city": "Volovo", "id": 701299}
+{"city": "Melekyne", "id": 701413}
+{"city": "Medzhibozh", "id": 701425}
+{"city": "Medenychi", "id": 701466}
+{"city": "Mayaky", "id": 701560}
+{"city": "Matviyivka", "id": 701588}
+{"city": "Mashivka", "id": 701637}
+{"city": "Marshintsy", "id": 701768}
+{"city": "Markivka", "id": 701792}
+{"city": "Markova", "id": 701802}
+{"city": "Manyava", "id": 701877}
+{"city": "Manchenky", "id": 701912}
+{"city": "Malorichenske", "id": 702061}
+{"city": "Malokakhovka", "id": 702073}
+{"city": "Mala Vyska", "id": 702147}
+{"city": "Mala Tokmachka", "id": 702153}
+{"city": "Mahdalynivka", "id": 702356}
+{"city": "Lyuboml", "id": 702421}
+{"city": "Lyubech", "id": 702477}
+{"city": "Lyubar", "id": 702486}
+{"city": "Lysyanka", "id": 702491}
+{"city": "Lysa Hora", "id": 702507}
+{"city": "Luzhany", "id": 702557}
+{"city": "Lukiv", "id": 702612}
+{"city": "Luhyny", "id": 702679}
+{"city": "Lozuvatka", "id": 702774}
+{"city": "Lozno-Oleksandrivka", "id": 702782}
+{"city": "Lopukhiv", "id": 702834}
+{"city": "Lokhvytsya", "id": 702874}
+{"city": "Lyubashivka", "id": 702898}
+{"city": "Lityn", "id": 702931}
+{"city": "Lysychovo", "id": 702971}
+{"city": "Lypova Dolyna", "id": 703015}
+{"city": "Lypnyazhka", "id": 703017}
+{"city": "Lypcha", "id": 703042}
+{"city": "Lykhivka", "id": 703079}
+{"city": "Lesovy", "id": 703144}
+{"city": "Lenine", "id": 703261}
+{"city": "Lenina", "id": 703270}
+{"city": "Lazurne", "id": 703317}
+{"city": "Lazi", "id": 703325}
+{"city": "Lazeshchyna", "id": 703328}
+{"city": "Lanivtsi", "id": 703397}
+{"city": "Lanchyn", "id": 703410}
+{"city": "Ladan", "id": 703438}
+{"city": "Kvasy", "id": 703455}
+{"city": "Kuty", "id": 703514}
+{"city": "Kuteynykove", "id": 703537}
+{"city": "Kushnytsya", "id": 703559}
+{"city": "Kulynychi", "id": 703706}
+{"city": "Kulykivka", "id": 703713}
+{"city": "Kulikov", "id": 703716}
+{"city": "Kryzhanivka", "id": 703844}
+{"city": "Kruty", "id": 703903}
+{"city": "Kryve Ozero", "id": 704010}
+{"city": "Kryva Hora", "id": 704048}
+{"city": "Kryva", "id": 704055}
+{"city": "Krinichnaya", "id": 704074}
+{"city": "Krepenskiy", "id": 704118}
+{"city": "Tatariv", "id": 704130}
+{"city": "Krasnyy Kut", "id": 704207}
+{"city": "Krasnoye", "id": 704277}
+{"city": "Krasne", "id": 704290}
+{"city": "Krasnotorka", "id": 704303}
+{"city": "Krasnosilka", "id": 704335}
+{"city": "Krasnopillya", "id": 704343}
+{"city": "Krasnokutsk", "id": 704376}
+{"city": "Krasna", "id": 704469}
+{"city": "Kozhanka", "id": 704565}
+{"city": "Kostryzhivka", "id": 704730}
+{"city": "Kosiv", "id": 704764}
+{"city": "Korop", "id": 704915}
+{"city": "Kornyn", "id": 704949}
+{"city": "Korets", "id": 704968}
+{"city": "Koreiz", "id": 704972}
+{"city": "Kopayhorod", "id": 705034}
+{"city": "Kompaniyivka", "id": 705198}
+{"city": "Koloniya Zastavye", "id": 705307}
+{"city": "Kolodenka", "id": 705431}
+{"city": "Kolochava", "id": 705433}
+{"city": "Kulevcha", "id": 705442}
+{"city": "Kodyma", "id": 705493}
+{"city": "Kodra", "id": 705494}
+{"city": "Kochetok", "id": 705512}
+{"city": "Kobyzhcha", "id": 705524}
+{"city": "Kobleve", "id": 705540}
+{"city": "Knyazhichi", "id": 705560}
+{"city": "Klishkivtsi", "id": 705626}
+{"city": "Klenovyy", "id": 705673}
+{"city": "Klembivka", "id": 705681}
+{"city": "Klavdiyevo-Tarasove", "id": 705689}
+{"city": "Kyrylivka", "id": 705852}
+{"city": "Kirikovka", "id": 705854}
+{"city": "Khrystynivka", "id": 706200}
+{"city": "Khotov", "id": 706232}
+{"city": "Khorostkiv", "id": 706271}
+{"city": "Khorosheve", "id": 706281}
+{"city": "Kholmy", "id": 706335}
+{"city": "Khodorov", "id": 706352}
+{"city": "Khymchyn", "id": 706434}
+{"city": "Kazanka", "id": 706580}
+{"city": "Kozachi Laheri", "id": 706596}
+{"city": "Katyuzhanka", "id": 706612}
+{"city": "Karapyshi", "id": 706803}
+{"city": "Kapitanivka", "id": 706883}
+{"city": "Kamysh-Zarya", "id": 706914}
+{"city": "Kamyshnya", "id": 706915}
+{"city": "Kamyshevka Vtoraya", "id": 706921}
+{"city": "Komyshuvakha", "id": 706941}
+{"city": "Komyshany", "id": 706945}
+{"city": "Kamennyye Potoki", "id": 706987}
+{"city": "Kamennoye", "id": 707002}
+{"city": "Kamin-Kashyrskyy", "id": 707025}
+{"city": "Kamianka", "id": 707052}
+{"city": "Kalyny", "id": 707127}
+{"city": "Kalchevaya", "id": 707220}
+{"city": "Kayiry", "id": 707245}
+{"city": "Kadubivtsi", "id": 707257}
+{"city": "Kacha", "id": 707281}
+{"city": "Yizhivtsi", "id": 707313}
+{"city": "Iza", "id": 707317}
+{"city": "Ispas", "id": 707529}
+{"city": "Illintsi", "id": 707695}
+{"city": "Hvizd", "id": 707770}
+{"city": "Huty", "id": 707786}
+{"city": "Husyatyn", "id": 707840}
+{"city": "Hryshkivtsi", "id": 708057}
+{"city": "Hrymayliv", "id": 708082}
+{"city": "Hrebinka", "id": 708181}
+{"city": "Gradizhsk", "id": 708210}
+{"city": "Hostomel", "id": 708251}
+{"city": "Hoshcha", "id": 708257}
+{"city": "Gorskoye", "id": 708273}
+{"city": "Horodnytsya", "id": 708324}
+{"city": "Horodne", "id": 708330}
+{"city": "Hornostayivka", "id": 708403}
+{"city": "Horinchovo", "id": 708434}
+{"city": "Holovyne", "id": 708569}
+{"city": "Holoby", "id": 708613}
+{"city": "Gnedin", "id": 708695}
+{"city": "Frunzivka", "id": 709071}
+{"city": "Frunzevka", "id": 709074}
+{"city": "Fontanka", "id": 709114}
+{"city": "Eskhar", "id": 709270}
+{"city": "Dzvinogrud", "id": 709295}
+{"city": "Duliby", "id": 709450}
+{"city": "Dudchany", "id": 709465}
+{"city": "Dubove", "id": 709516}
+{"city": "Drahovo", "id": 709630}
+{"city": "Drabiv", "id": 709643}
+{"city": "Dovbysh", "id": 709665}
+{"city": "Domanivka", "id": 709740}
+{"city": "Dovhe", "id": 709808}
+{"city": "Dobryanka", "id": 709856}
+{"city": "Dobre", "id": 709869}
+{"city": "Dnipryany", "id": 709940}
+{"city": "Dniprovka", "id": 709954}
+{"city": "Dymytrove", "id": 710032}
+{"city": "Desna", "id": 710071}
+{"city": "Degtyari", "id": 710214}
+{"city": "Davydivka", "id": 710243}
+{"city": "Dashev", "id": 710260}
+{"city": "Chulakivka", "id": 710368}
+{"city": "Chynadiyovo", "id": 710463}
+{"city": "Chervonaya Sloboda", "id": 710587}
+{"city": "Chortomlyk", "id": 710615}
+{"city": "Chernyatyn", "id": 710652}
+{"city": "Chornyanka", "id": 710653}
+{"city": "Chornukhy", "id": 710669}
+{"city": "Chornopillya", "id": 710684}
+{"city": "Chornoliztsi", "id": 710698}
+{"city": "Chornobayivka", "id": 710715}
+{"city": "Cherniyiv", "id": 710718}
+{"city": "Chernelytsya", "id": 710755}
+{"city": "Chapayeve", "id": 710940}
+{"city": "Viytivka", "id": 710949}
+{"city": "Bytkiv", "id": 710981}
+{"city": "Bystrytsya", "id": 710995}
+{"city": "Bykivka", "id": 711024}
+{"city": "Bushtyno", "id": 711105}
+{"city": "Buryn", "id": 711116}
+{"city": "Budy", "id": 711268}
+{"city": "Buchach", "id": 711348}
+{"city": "Broska", "id": 711398}
+{"city": "Broshniv-Osada", "id": 711400}
+{"city": "Brylivka", "id": 711435}
+{"city": "Bratslav", "id": 711459}
+{"city": "Boyany", "id": 711518}
+{"city": "Borzna", "id": 711536}
+{"city": "Boromlya", "id": 711629}
+{"city": "Borodyanka", "id": 711635}
+{"city": "Borodino", "id": 711637}
+{"city": "Bilshivtsi", "id": 711752}
+{"city": "Bolekhiv", "id": 711850}
+{"city": "Bohdan", "id": 711952}
+{"city": "Bobrka", "id": 712003}
+{"city": "Bobovo", "id": 712023}
+{"city": "Blyznyuky", "id": 712041}
+{"city": "Blahodatne", "id": 712091}
+{"city": "Blagodatnoye", "id": 712092}
+{"city": "Biryukove", "id": 712131}
+{"city": "Bezimenne", "id": 712181}
+{"city": "Bezlyudivka", "id": 712200}
+{"city": "Berezovo", "id": 712276}
+{"city": "Bereznyky", "id": 712336}
+{"city": "Bereznehuvate", "id": 712339}
+{"city": "Berezna", "id": 712343}
+{"city": "Berezyne", "id": 712349}
+{"city": "Berezanka", "id": 712387}
+{"city": "Berestechko", "id": 712416}
+{"city": "Berehomet", "id": 712430}
+{"city": "Bili Oslavy", "id": 712477}
+{"city": "Beloye", "id": 712515}
+{"city": "Bilokurakyne", "id": 712569}
+{"city": "Belogorovka", "id": 712588}
+{"city": "Bilky", "id": 712602}
+{"city": "Belitskoye", "id": 712613}
+{"city": "Bila Krynytsya", "id": 712656}
+{"city": "Belaya", "id": 712667}
+{"city": "Bekhtery", "id": 712682}
+{"city": "Bazaliya", "id": 712715}
+{"city": "Baturyn", "id": 712745}
+{"city": "Baranovka", "id": 712839}
+{"city": "Banyliv", "id": 712871}
+{"city": "Balky", "id": 712895}
+{"city": "Baherove", "id": 712992}
+{"city": "Babanka", "id": 713055}
+{"city": "Antoniny", "id": 713316}
+{"city": "Andrushivka", "id": 713389}
+{"city": "Adzhamka", "id": 713784}
+{"city": "Malynivka", "id": 793657}
+{"city": "Kopashnovo", "id": 829745}
+{"city": "Kirove", "id": 829795}
+{"city": "Orikhove", "id": 832394}
+{"city": "Krasni Okny", "id": 860012}
+{"city": "Kuchurhan", "id": 864871}
+{"city": "Smyga", "id": 864933}
+{"city": "Tayirove", "id": 865086}
+{"city": "Orzhiv", "id": 6931023}
+{"city": "Shkilne", "id": 7039160}
+{"city": "Denyshi", "id": 7280677}
+{"city": "Stepove", "id": 7303923}
+{"city": "Scholkine", "id": 7522123}
+{"city": "Sharovechka", "id": 694342}
+{"city": "Khmil’", "id": 706075}
+{"city": "Mironovka", "id": 701032}
+{"city": "Kirovskoye", "id": 705797}
+{"city": "Svyatohirs’k", "id": 693577}
+{"city": "Potok", "id": 696416}

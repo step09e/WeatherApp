@@ -32,11 +32,13 @@ namespace WeatherApp {
 
 		private async void Button_Click(object sender, RoutedEventArgs e) {
 			//Button Butt1 = sender as Button;
-			var data = await GetDataFromOpenWeather(InputLocation.Text);
+			var data = await GetDataFromOpenWeather(InputField.Text);
 			if (data.Length > 0) {
-				Windowforecast Window = new Windowforecast();
-				Window.Show();
-				Window.forecast.ItemsSource = data;
+				Windowforecast window = new Windowforecast();//локальные переменные и вообще переменные лучше называть с маленькой буквы.
+				window.Title = data[data.Length-1].Clouds;//почему так, см. комменты ниже
+				LocationLabel.Content = data[data.Length - 1].Clouds;
+				window.Show();
+				window.forecast.ItemsSource = data;
 			}
 			else {
 				MessageBox.Show("no data received");
@@ -73,7 +75,7 @@ namespace WeatherApp {
 			String Pressure = "";
 			String Humidity = "";
 			int a = 0;
-
+			string realname = "";
 			while (reader.Read()) {
 				switch (reader.NodeType) {
 					case XmlNodeType.XmlDeclaration:
@@ -139,7 +141,8 @@ namespace WeatherApp {
 					case XmlNodeType.Text:
 						if (a == 1) {
 							//Window.Title = reader.Value + " - " + " 3 hours / 5 days  " + " forecast." + "on basis of openweathermap.org source";
-							//не подходящее место для изменения заголовка. нужно немного подумать и изменить архитектуру так, чтобы это можно было сделать вне функции
+							//не подходящее место для изменения заголовка. нужно немного подумать и изменить архитектуру так, чтобы это можно было сделать вне функции.
+							realname = reader.Value; //временное решение. я потом всё поменяю
 							a = 0;
 						}
 
@@ -177,6 +180,9 @@ namespace WeatherApp {
 
 			}
 			reader.Close();
+			MyWeatherData.Add(new WeatherData() {
+				Clouds = realname //будем знать, что в конце списка лежит имя. это временное решение, так делать не стоит
+			});
 			return MyWeatherData.ToArray();
 		}
 	}
