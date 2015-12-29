@@ -1,6 +1,6 @@
 import json
 
-with open('city.list.json',"r") as data_file:
+with open('city.list.json',"r") as data_file: #файл можно взять с сайта openweathermap
     result = list()
     for line in data_file:
         json_obj = json.loads(line)

@@ -3,10 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Weather forecast service" Height="350" Width="525" ResizeMode="NoResize">
     <Grid Background="#FF237BBD">
-        <!--<Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
-            <ColumnDefinition Width="1*"/>
-        </Grid.ColumnDefinitions>-->
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>

@@ -24,43 +24,86 @@ namespace WeatherApp {
 			InitializeComponent();
 		}
 
-		XmlDocument GetDataFromServer(string cityname) {
-			XmlDocument xml = new XmlDocument();
-			xml.Load(string.Format("http://www.google.com/ig/api?weather={0}", cityname));
-			return xml;
-		}
-
 		private async void Button_Click(object sender, RoutedEventArgs e) {
-			//Button Butt1 = sender as Button;
-			var data = await GetDataFromOpenWeather(InputField.Text);
-			if (data.Length > 0) {
-				Windowforecast window = new Windowforecast();//локальные переменные и вообще переменные лучше называть с маленькой буквы.
-				window.Title = data[data.Length-1].Clouds;//почему так, см. комменты ниже
-				LocationLabel.Content = data[data.Length - 1].Clouds;
+			var xmlStr = await GetXmlFromOpenWeather(InputField.Text);
+			var doc = new XmlDocument();
+			doc.LoadXml(xmlStr);
+			var data = GetDataFromXml(doc);
+			if (data.Forecasts.Count > 0) {
+				Windowforecast window = new Windowforecast();
+				window.Title = data.LocationName;
+				LocationLabel.Content = data.LocationName;
 				window.Show();
-				window.forecast.ItemsSource = data;
+				window.forecastDataGrid.Columns.Clear();
+				var columns = data.GetColumns();
+				for (int i = 0; i < columns.Length; i++) {
+					window.forecastDataGrid.Columns.Add(columns[i]);
+				}
+				window.forecastDataGrid.ItemsSource = data.Forecasts;
 			}
 			else {
 				MessageBox.Show("no data received");
 			}
 		}
-	
-		/// <summary>
-		/// get weather data array from openweathermap.net
-		/// </summary>
-		private async Task<WeatherData[]> GetDataFromOpenWeather(string cityname){/*, Windowforecast Window//передавать окно внутрь функции чтобы она с ним делала что-то неизвестное - очень плохая идея. функция всегда должна делать ровно то, что от нее ожидают*/
-			var uri = new Uri("http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + "&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231"); ///Вот тут талися чёрт. ",us" добавлялся ко всем запросам, а мы все смотрели на эту строчку, и не замечали...
+
+		async Task<string> GetXmlFromOpenWeather(string cityname) {
+			var uri = new Uri("http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + "&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231"); ///Вот тут таился чёрт. ",us" добавлялся ко всем запросам, а мы все смотрели на эту строчку, и не замечали...
 			var xml = await new WebClient().DownloadStringTaskAsync(uri);
-			if (xml == ""){
+			return xml;
+		}
+
+		/// <summary>
+		/// Parse xml from openweathermap.org
+		/// </summary>
+		ForecastsList GetDataFromXml(XmlDocument doc) {
+			doc.Save("forecast.xml"); //сохранять больше не требуется, но будем и дальше это делать для сущей красоты
+			var result = new ForecastsList();
+			result.ParseUnitsFromXml(doc);
+
+			var elements = doc.SelectNodes("//time");
+
+			foreach (XmlNode node in elements)
+			{
+				//парсинг с помощью xpath
+				var forecast = new WeatherData();
+				var timeFrom = node.SelectSingleNode("@from").Value;
+				var timeTo = node.SelectSingleNode("@to").Value;
+				forecast.TimeFrom = /*DateTime.Parse(*/timeFrom;//);
+				forecast.TimeTo = /*DateTime.Parse(*/timeTo;//);
+				forecast.Temperature = /*float.Parse(*/node.SelectSingleNode("temperature/@value").Value;//);
+				forecast.WindDirection = node.SelectSingleNode("windDirection/@name").Value;
+				forecast.WindSpeed = /*float.Parse(*/node.SelectSingleNode("windSpeed/@mps").Value;//);
+				forecast.WindDescription = node.SelectSingleNode("windSpeed/@name").Value;
+				forecast.Pressure = /*float.Parse(*/node.SelectSingleNode("pressure/@value").Value;//);
+				var _precipitationType = node.SelectSingleNode("precipitation/@type");
+				forecast.PrecipitationDescription = _precipitationType == null ? "" : _precipitationType.Value;
+				if (forecast.PrecipitationDescription == "show") {
+					forecast.PrecipitationDescription = "snow";
+				}
+				var _precValue = /*float.Parse(*/node.SelectSingleNode("precipitation/@value");//);
+				forecast.Precipitation = _precValue == null ? "" : _precValue.Value;
+				forecast.Humidity = /*float.Parse(*/node.SelectSingleNode("humidity/@value").Value;//);
+				forecast.CloudsDescription = node.SelectSingleNode("clouds/@value").Value;
+				forecast.Clouds = node.SelectSingleNode("clouds/@all").Value;
+				result.Forecasts.Add(forecast);
+			}		
+			return result;
+		}
+
+		[Obsolete()]
+		/// <summary>
+		/// deprecated
+		/// </summary>
+		WeatherData[] GetDataFromXml(string xml){
+			
+			//if (xml == ""){
 				return new WeatherData[0];//вместо null лучше возвращать пустой массив в таких случаях
-			}
-			XmlDocument MyXmlDocument = new XmlDocument();
-			MyXmlDocument.LoadXml(xml);
-			MyXmlDocument.Save("xml.dat");
+			//}
+			XmlDocument doc = new XmlDocument();
+			doc.LoadXml(xml);
+			doc.Save("xml.dat");
 			XmlTextReader reader = new XmlTextReader("xml.dat");
-
 			// xml parsing
-
 			List<WeatherData> MyWeatherData = new List<WeatherData>();
 
 			String DateTime_ = "";
@@ -151,19 +194,19 @@ namespace WeatherApp {
 				if (Clouds == "") {
 					continue;
 				}
-				MyWeatherData.Add(new WeatherData {
-					DateTime = DateTime_,
-					Temperature = Temperature_day,
-					Temperature_night = Temperature_night,
-					MinTemp = MinTemp,
-					MaxTemp = MaxTemp,
-					Precipitation = Precipitation,
-					Clouds = Clouds,
-					WindDirection = WindDirection,
-					WindSpeed = WindSpeed,
-					Pressure = Pressure,
-					Humidity = Humidity
-				});
+				//MyWeatherData.Add(new WeatherData {
+				//	DateTime = DateTime_,
+				//	Temperature = Temperature_day,
+				//	Temperature_night = Temperature_night,
+				//	MinTemp = MinTemp,
+				//	MaxTemp = MaxTemp,
+				//	Precipitation = Precipitation,
+				//	Clouds = Clouds,
+				//	WindDirection = WindDirection,
+				//	WindSpeed = WindSpeed,
+				//	Pressure = Pressure,
+				//	Humidity = Humidity
+				//});
 
 				DateTime_ = "";
 				Temperature_day = "";
@@ -179,10 +222,10 @@ namespace WeatherApp {
 
 
 			}
-			reader.Close();
-			MyWeatherData.Add(new WeatherData() {
-				Clouds = realname //будем знать, что в конце списка лежит имя. это временное решение, так делать не стоит
-			});
+			//reader.Close();
+			//MyWeatherData.Add(new WeatherData() {
+			//	//Clouds = realname //будем знать, что в конце списка лежит имя. это временное решение, так делать не стоит
+			//});
 			return MyWeatherData.ToArray();
 		}
 	}
