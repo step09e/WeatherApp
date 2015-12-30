@@ -12,7 +12,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+//using System.Windows.Shapes;
+using System.Web.Script.Serialization;
 using System.IO;
 using System.Net;
 
@@ -20,8 +21,52 @@ namespace WeatherApp {
 
 	public partial class MainWindow : Window {
 
+		public static readonly string JsonFileName = "ua_cities.json";
+		string[] _locations = new string[0];
+		List<string> _currentLocations = new List<string>();
+		static readonly int MaxDrobHelpItems = 8;
+
 		public MainWindow() {
 			InitializeComponent();
+			LoadCitiesBase();
+			HelperDropBox.ItemsSource = _currentLocations;
+		}
+
+		void LoadCitiesBase() {
+			var path = AppDomain.CurrentDomain.BaseDirectory;
+			var root = Path.GetPathRoot(path);
+
+			bool fileExists = false;
+			if (File.Exists(Path.Combine(path, JsonFileName))) {
+				fileExists = true;
+			}
+			else {
+				while (path != "" && path != root) {
+					path = Directory.GetParent(path).ToString();
+					if (File.Exists(Path.Combine(path, JsonFileName))) {
+						fileExists = true;
+						break;
+					}
+				}
+			}
+			if (fileExists) {
+				var resultList = new List<string>();
+				using (var reader = new StreamReader(Path.Combine(path, JsonFileName))) {
+					string line = "";
+					while (( line = reader.ReadLine() ) != null) {
+						JavaScriptSerializer js = new JavaScriptSerializer();
+						var dict = js.Deserialize<Dictionary<string, string>>(line);
+						if (dict.ContainsKey("city")) {
+							resultList.Add(dict["city"]);
+						}
+					}
+				}
+				resultList = resultList.ConvertAll(x => x.ToLower());
+				_locations = resultList.OrderBy(x => x).ToArray();
+			}
+			else {
+				MessageBox.Show(JsonFileName + " not found");
+			}
 		}
 
 		private async void Button_Click(object sender, RoutedEventArgs e) {
@@ -62,8 +107,7 @@ namespace WeatherApp {
 
 			var elements = doc.SelectNodes("//time");
 
-			foreach (XmlNode node in elements)
-			{
+			foreach (XmlNode node in elements) {
 				//парсинг с помощью xpath
 				var forecast = new WeatherData();
 				var timeFrom = node.SelectSingleNode("@from").Value;
@@ -86,147 +130,36 @@ namespace WeatherApp {
 				forecast.CloudsDescription = node.SelectSingleNode("clouds/@value").Value;
 				forecast.Clouds = node.SelectSingleNode("clouds/@all").Value;
 				result.Forecasts.Add(forecast);
-			}		
+			}
 			return result;
 		}
 
-		[Obsolete()]
-		/// <summary>
-		/// deprecated
-		/// </summary>
-		WeatherData[] GetDataFromXml(string xml){
-			
-			//if (xml == ""){
-				return new WeatherData[0];//вместо null лучше возвращать пустой массив в таких случаях
-			//}
-			XmlDocument doc = new XmlDocument();
-			doc.LoadXml(xml);
-			doc.Save("xml.dat");
-			XmlTextReader reader = new XmlTextReader("xml.dat");
-			// xml parsing
-			List<WeatherData> MyWeatherData = new List<WeatherData>();
-
-			String DateTime_ = "";
-			String Temperature_day = "";
-			String Temperature_night = "";
-			String MinTemp = "";
-			String MaxTemp = "";
-			String Precipitation = "";
-			String Clouds = "";
-			String WindDirection = "";
-			String WindSpeed = "";
-			String Pressure = "";
-			String Humidity = "";
-			int a = 0;
-			string realname = "";
-			while (reader.Read()) {
-				switch (reader.NodeType) {
-					case XmlNodeType.XmlDeclaration:
-						//  s.AppendLine("Описание XML: Name = " + reader.Name + " Value =" + reader.Value);
-						break;
-					case XmlNodeType.Element:
-						if (reader.Name == "name")
-							a = 1;
-						else if (reader.Name == "time")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "day")
-									DateTime_ = reader.Value;
-								if (reader.Name == "from")
-									DateTime_ = reader.Value + " - ";
-								if (reader.Name == "to")
-									DateTime_ += reader.Value;
-							}
-
-						else if (reader.Name == "precipitation")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "type")
-									Precipitation = reader.Value;
-							}
-						else if (reader.Name == "windDirection")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "code")
-									WindDirection = reader.Value;
-							}
-						else if (reader.Name == "windSpeed")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "mps")
-									WindSpeed = reader.Value;
-							}
-						else if (reader.Name == "temperature")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "day")
-									Temperature_day = reader.Value;
-								if (reader.Name == "night")
-									Temperature_night = reader.Value;
-								if (reader.Name == "value")
-									Temperature_day = reader.Value;
-								if (reader.Name == "max")
-									MaxTemp = reader.Value;
-								if (reader.Name == "min")
-									MinTemp = reader.Value;
-							}
-						else if (reader.Name == "pressure")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "value")
-									Pressure = reader.Value + "hpa";
-							}
-						else if (reader.Name == "humidity")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "value")
-									Humidity = reader.Value + "%";
-							}
-						else if (reader.Name == "clouds")
-							while (reader.MoveToNextAttribute()) {
-								if (reader.Name == "all")
-									Clouds = reader.Value + "%";
-							}
-						break;
-					case XmlNodeType.Text:
-						if (a == 1) {
-							//Window.Title = reader.Value + " - " + " 3 hours / 5 days  " + " forecast." + "on basis of openweathermap.org source";
-							//не подходящее место для изменения заголовка. нужно немного подумать и изменить архитектуру так, чтобы это можно было сделать вне функции.
-							realname = reader.Value; //временное решение. я потом всё поменяю
-							a = 0;
-						}
-
-						break;
-				}
-				if (Clouds == "") {
-					continue;
-				}
-				//MyWeatherData.Add(new WeatherData {
-				//	DateTime = DateTime_,
-				//	Temperature = Temperature_day,
-				//	Temperature_night = Temperature_night,
-				//	MinTemp = MinTemp,
-				//	MaxTemp = MaxTemp,
-				//	Precipitation = Precipitation,
-				//	Clouds = Clouds,
-				//	WindDirection = WindDirection,
-				//	WindSpeed = WindSpeed,
-				//	Pressure = Pressure,
-				//	Humidity = Humidity
-				//});
-
-				DateTime_ = "";
-				Temperature_day = "";
-				Temperature_night = "";
-				MinTemp = "";
-				MaxTemp = "";
-				Precipitation = "";
-				Clouds = "";
-				WindDirection = "";
-				WindSpeed = "";
-				Pressure = "";
-				Humidity = "";
-
-
+		private void InputField_TextChanged(object sender, TextChangedEventArgs e) {
+			if (LocationLabel != null) {
+				UpdateDropDown( InputField.Text );
 			}
-			//reader.Close();
-			//MyWeatherData.Add(new WeatherData() {
-			//	//Clouds = realname //будем знать, что в конце списка лежит имя. это временное решение, так делать не стоит
-			//});
-			return MyWeatherData.ToArray();
+		}
+
+		void UpdateDropDown(string query) {
+			_currentLocations.Clear();
+			var matchLocations = _locations.BinaryMinMaxIndexesSearch(query);
+			if (matchLocations.Item1 >= 0 && matchLocations.Item2 >= 0 && matchLocations.Item1 < _locations.Length && matchLocations.Item2 < _locations.Length) {
+				for (int i = matchLocations.Item1; i <= matchLocations.Item2; i++) {
+					_currentLocations.Add(_locations[i]);
+					if (_currentLocations.Count >= MaxDrobHelpItems) {
+						break;
+					}
+				}
+				HelperDropBox.Items.Refresh();
+				HelperDropBox.IsDropDownOpen = true;
+			}
+			else {
+				HelperDropBox.IsDropDownOpen = false;
+			}
+		}
+
+		private void HelperDropBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+			InputField.Text = (string)HelperDropBox.SelectedValue;
 		}
 	}
 
