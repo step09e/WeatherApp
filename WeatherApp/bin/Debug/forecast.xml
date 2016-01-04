@@ -1,0 +1,745 @@
+<weatherdata>
+  <location>
+    <name>Kiev</name>
+    <type>
+    </type>
+    <country>UA</country>
+    <timezone>
+    </timezone>
+    <location altitude="0" latitude="50.433334" longitude="30.516666" geobase="geonames" geobaseid="0">
+    </location>
+  </location>
+  <credit>
+  </credit>
+  <meta>
+    <lastupdate>
+    </lastupdate>
+    <calctime>0.0029</calctime>
+    <nextupdate>
+    </nextupdate>
+  </meta>
+  <sun rise="2016-01-04T05:57:59" set="2016-01-04T14:08:00">
+  </sun>
+  <forecast>
+    <time from="2016-01-04T12:00:00" to="2016-01-04T15:00:00">
+      <symbol number="801" name="few clouds" var="02n">
+      </symbol>
+      <precipitation>
+      </precipitation>
+      <windDirection deg="139.506" code="SE" name="SouthEast">
+      </windDirection>
+      <windSpeed mps="2.65" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-18.51" min="-20.22" max="-18.51">
+      </temperature>
+      <pressure unit="hPa" value="1012.09">
+      </pressure>
+      <humidity value="92" unit="%">
+      </humidity>
+      <clouds value="few clouds" all="20" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-04T15:00:00" to="2016-01-04T18:00:00">
+      <symbol number="802" name="scattered clouds" var="03n">
+      </symbol>
+      <precipitation>
+      </precipitation>
+      <windDirection deg="149.002" code="SSE" name="South-southeast">
+      </windDirection>
+      <windSpeed mps="3.91" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-18.7" min="-20.32" max="-18.7">
+      </temperature>
+      <pressure unit="hPa" value="1011.07">
+      </pressure>
+      <humidity value="80" unit="%">
+      </humidity>
+      <clouds value="scattered clouds" all="44" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-04T18:00:00" to="2016-01-04T21:00:00">
+      <symbol number="800" name="sky is clear" var="01n">
+      </symbol>
+      <precipitation unit="3h" value="0.012" type="show">
+      </precipitation>
+      <windDirection deg="163.007" code="SSE" name="South-southeast">
+      </windDirection>
+      <windSpeed mps="4.11" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-17.09" min="-18.62" max="-17.09">
+      </temperature>
+      <pressure unit="hPa" value="1010.39">
+      </pressure>
+      <humidity value="100" unit="%">
+      </humidity>
+      <clouds value="scattered clouds" all="48" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-04T21:00:00" to="2016-01-05T00:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.05425" type="show">
+      </precipitation>
+      <windDirection deg="153.503" code="SSE" name="South-southeast">
+      </windDirection>
+      <windSpeed mps="3.96" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-16.68" min="-18.12" max="-16.68">
+      </temperature>
+      <pressure unit="hPa" value="1009.25">
+      </pressure>
+      <humidity value="99" unit="%">
+      </humidity>
+      <clouds value="scattered clouds" all="48" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T00:00:00" to="2016-01-05T03:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.08875" type="show">
+      </precipitation>
+      <windDirection deg="134.503" code="SE" name="SouthEast">
+      </windDirection>
+      <windSpeed mps="4.22" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-14.93" min="-16.28" max="-14.93">
+      </temperature>
+      <pressure unit="hPa" value="1008.33">
+      </pressure>
+      <humidity value="100" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T03:00:00" to="2016-01-05T06:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.0975" type="show">
+      </precipitation>
+      <windDirection deg="122.503" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="4.66" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-13.71" min="-14.97" max="-13.71">
+      </temperature>
+      <pressure unit="hPa" value="1008.12">
+      </pressure>
+      <humidity value="100" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T06:00:00" to="2016-01-05T09:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.2975" type="show">
+      </precipitation>
+      <windDirection deg="118.002" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="5.51" name="Moderate breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.42" min="-12.59" max="-11.42">
+      </temperature>
+      <pressure unit="hPa" value="1007.85">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T09:00:00" to="2016-01-05T12:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.485" type="show">
+      </precipitation>
+      <windDirection deg="113.5" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="5.82" name="Moderate breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-10.46" min="-11.54" max="-10.46">
+      </temperature>
+      <pressure unit="hPa" value="1007.39">
+      </pressure>
+      <humidity value="96" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T12:00:00" to="2016-01-05T15:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.6975" type="show">
+      </precipitation>
+      <windDirection deg="114" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="5.11" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.14" min="-12.13" max="-11.14">
+      </temperature>
+      <pressure unit="hPa" value="1007.83">
+      </pressure>
+      <humidity value="94" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T15:00:00" to="2016-01-05T18:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.5925" type="show">
+      </precipitation>
+      <windDirection deg="114.51" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="4.47" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.43" min="-12.33" max="-11.43">
+      </temperature>
+      <pressure unit="hPa" value="1008.11">
+      </pressure>
+      <humidity value="95" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T18:00:00" to="2016-01-05T21:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.18" type="show">
+      </precipitation>
+      <windDirection deg="116.501" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="3.92" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.67" min="-12.47" max="-11.67">
+      </temperature>
+      <pressure unit="hPa" value="1008.37">
+      </pressure>
+      <humidity value="96" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-05T21:00:00" to="2016-01-06T00:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.2" type="show">
+      </precipitation>
+      <windDirection deg="121.504" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="3.16" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.5" min="-12.22" max="-11.5">
+      </temperature>
+      <pressure unit="hPa" value="1009.23">
+      </pressure>
+      <humidity value="94" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T00:00:00" to="2016-01-06T03:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.055" type="show">
+      </precipitation>
+      <windDirection deg="131.513" code="SE" name="SouthEast">
+      </windDirection>
+      <windSpeed mps="2.95" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.14" min="-11.77" max="-11.14">
+      </temperature>
+      <pressure unit="hPa" value="1009.14">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T03:00:00" to="2016-01-06T06:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.05" type="show">
+      </precipitation>
+      <windDirection deg="152.001" code="SSE" name="South-southeast">
+      </windDirection>
+      <windSpeed mps="2.58" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.17" min="-11.7" max="-11.17">
+      </temperature>
+      <pressure unit="hPa" value="1009.19">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="56" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T06:00:00" to="2016-01-06T09:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation unit="3h" value="0.03" type="show">
+      </precipitation>
+      <windDirection deg="184.009" code="S" name="South">
+      </windDirection>
+      <windSpeed mps="2.07" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.08" min="-9.52" max="-9.08">
+      </temperature>
+      <pressure unit="hPa" value="1009.94">
+      </pressure>
+      <humidity value="98" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="76" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T09:00:00" to="2016-01-06T12:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.03" type="show">
+      </precipitation>
+      <windDirection deg="115.002" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="1.98" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-7.77" min="-8.13" max="-7.77">
+      </temperature>
+      <pressure unit="hPa" value="1009.22">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="68" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T12:00:00" to="2016-01-06T15:00:00">
+      <symbol number="800" name="sky is clear" var="01n">
+      </symbol>
+      <precipitation unit="3h" value="0.025" type="show">
+      </precipitation>
+      <windDirection deg="105.501" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="2.31" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.45" min="-9.72" max="-9.45">
+      </temperature>
+      <pressure unit="hPa" value="1009.28">
+      </pressure>
+      <humidity value="88" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="68" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T15:00:00" to="2016-01-06T18:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.09" type="show">
+      </precipitation>
+      <windDirection deg="105.503" code="ESE" name="East-southeast">
+      </windDirection>
+      <windSpeed mps="2.72" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.7" min="-9.87" max="-9.7">
+      </temperature>
+      <pressure unit="hPa" value="1008.47">
+      </pressure>
+      <humidity value="89" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T18:00:00" to="2016-01-06T21:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.03" type="show">
+      </precipitation>
+      <windDirection deg="85.5018" code="E" name="East">
+      </windDirection>
+      <windSpeed mps="3.36" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.25" min="-9.35" max="-9.25">
+      </temperature>
+      <pressure unit="hPa" value="1007.68">
+      </pressure>
+      <humidity value="96" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-06T21:00:00" to="2016-01-07T00:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.195" type="show">
+      </precipitation>
+      <windDirection deg="76.5031" code="ENE" name="East-northeast">
+      </windDirection>
+      <windSpeed mps="4.06" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.25" min="-9.25" max="-9.25">
+      </temperature>
+      <pressure unit="hPa" value="1006.93">
+      </pressure>
+      <humidity value="96" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T00:00:00" to="2016-01-07T03:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.56" type="show">
+      </precipitation>
+      <windDirection deg="71.5046" code="ENE" name="East-northeast">
+      </windDirection>
+      <windSpeed mps="4.35" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.4" min="-9.4" max="-9.4">
+      </temperature>
+      <pressure unit="hPa" value="1005.39">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T03:00:00" to="2016-01-07T06:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.305" type="show">
+      </precipitation>
+      <windDirection deg="59.5007" code="ENE" name="East-northeast">
+      </windDirection>
+      <windSpeed mps="4.51" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.57" min="-9.57" max="-9.57">
+      </temperature>
+      <pressure unit="hPa" value="1004.66">
+      </pressure>
+      <humidity value="98" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T06:00:00" to="2016-01-07T09:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.485" type="show">
+      </precipitation>
+      <windDirection deg="52.5008" code="NE" name="NorthEast">
+      </windDirection>
+      <windSpeed mps="4.66" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-8.92" min="-8.92" max="-8.92">
+      </temperature>
+      <pressure unit="hPa" value="1004.58">
+      </pressure>
+      <humidity value="93" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T09:00:00" to="2016-01-07T12:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.605" type="show">
+      </precipitation>
+      <windDirection deg="39.5002" code="NE" name="NorthEast">
+      </windDirection>
+      <windSpeed mps="4.46" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-8.3" min="-8.3" max="-8.3">
+      </temperature>
+      <pressure unit="hPa" value="1004.06">
+      </pressure>
+      <humidity value="98" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T12:00:00" to="2016-01-07T15:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.15" type="show">
+      </precipitation>
+      <windDirection deg="20.0011" code="NNE" name="North-northeast">
+      </windDirection>
+      <windSpeed mps="4.76" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-8.93" min="-8.93" max="-8.93">
+      </temperature>
+      <pressure unit="hPa" value="1004.43">
+      </pressure>
+      <humidity value="93" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T15:00:00" to="2016-01-07T18:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.075" type="show">
+      </precipitation>
+      <windDirection deg="25.5006" code="NNE" name="North-northeast">
+      </windDirection>
+      <windSpeed mps="4.16" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.61" min="-9.61" max="-9.61">
+      </temperature>
+      <pressure unit="hPa" value="1005.15">
+      </pressure>
+      <humidity value="98" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T18:00:00" to="2016-01-07T21:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.04" type="show">
+      </precipitation>
+      <windDirection deg="32.501" code="NNE" name="North-northeast">
+      </windDirection>
+      <windSpeed mps="3.07" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-10.13" min="-10.13" max="-10.13">
+      </temperature>
+      <pressure unit="hPa" value="1006.07">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-07T21:00:00" to="2016-01-08T00:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.06" type="show">
+      </precipitation>
+      <windDirection deg="37.5003" code="NE" name="NorthEast">
+      </windDirection>
+      <windSpeed mps="2.78" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-10.51" min="-10.51" max="-10.51">
+      </temperature>
+      <pressure unit="hPa" value="1006.97">
+      </pressure>
+      <humidity value="100" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T00:00:00" to="2016-01-08T03:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.085" type="show">
+      </precipitation>
+      <windDirection deg="71.5036" code="ENE" name="East-northeast">
+      </windDirection>
+      <windSpeed mps="2.21" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-10.97" min="-10.97" max="-10.97">
+      </temperature>
+      <pressure unit="hPa" value="1007.02">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T03:00:00" to="2016-01-08T06:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation unit="3h" value="0.02" type="show">
+      </precipitation>
+      <windDirection deg="94.5002" code="E" name="East">
+      </windDirection>
+      <windSpeed mps="2.58" name="Light breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-11.79" min="-11.79" max="-11.79">
+      </temperature>
+      <pressure unit="hPa" value="1006.99">
+      </pressure>
+      <humidity value="97" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T06:00:00" to="2016-01-08T09:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation unit="3h" value="0.01" type="show">
+      </precipitation>
+      <windDirection deg="137.011" code="SE" name="SouthEast">
+      </windDirection>
+      <windSpeed mps="3.66" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-9.89" min="-9.89" max="-9.89">
+      </temperature>
+      <pressure unit="hPa" value="1007.5">
+      </pressure>
+      <humidity value="100" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T09:00:00" to="2016-01-08T12:00:00">
+      <symbol number="600" name="light snow" var="13d">
+      </symbol>
+      <precipitation unit="3h" value="0.195" type="show">
+      </precipitation>
+      <windDirection deg="144.001" code="SE" name="SouthEast">
+      </windDirection>
+      <windSpeed mps="4.51" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-8.39" min="-8.39" max="-8.39">
+      </temperature>
+      <pressure unit="hPa" value="1005.92">
+      </pressure>
+      <humidity value="99" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T12:00:00" to="2016-01-08T15:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="1" type="show">
+      </precipitation>
+      <windDirection deg="149.003" code="SSE" name="South-southeast">
+      </windDirection>
+      <windSpeed mps="5.06" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-7.5" min="-7.5" max="-7.5">
+      </temperature>
+      <pressure unit="hPa" value="1004.85">
+      </pressure>
+      <humidity value="92" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="92" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T15:00:00" to="2016-01-08T18:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.5" type="show">
+      </precipitation>
+      <windDirection deg="171.503" code="S" name="South">
+      </windDirection>
+      <windSpeed mps="4.61" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-5.72" min="-5.72" max="-5.72">
+      </temperature>
+      <pressure unit="hPa" value="1003.44">
+      </pressure>
+      <humidity value="93" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T18:00:00" to="2016-01-08T21:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.66" type="show">
+      </precipitation>
+      <windDirection deg="216.002" code="SW" name="Southwest">
+      </windDirection>
+      <windSpeed mps="5.26" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-2.31" min="-2.31" max="-2.31">
+      </temperature>
+      <pressure unit="hPa" value="1002.42">
+      </pressure>
+      <humidity value="90" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-08T21:00:00" to="2016-01-09T00:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.145" type="show">
+      </precipitation>
+      <windDirection deg="246.003" code="WSW" name="West-southwest">
+      </windDirection>
+      <windSpeed mps="5.65" name="Moderate breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="0" min="0" max="0">
+      </temperature>
+      <pressure unit="hPa" value="1003.35">
+      </pressure>
+      <humidity value="94" unit="%">
+      </humidity>
+      <clouds value="overcast clouds" all="88" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-09T00:00:00" to="2016-01-09T03:00:00">
+      <symbol number="600" name="light snow" var="13n">
+      </symbol>
+      <precipitation unit="3h" value="0.045" type="show">
+      </precipitation>
+      <windDirection deg="258.5" code="WSW" name="West-southwest">
+      </windDirection>
+      <windSpeed mps="5.11" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-0.36" min="-0.36" max="-0.36">
+      </temperature>
+      <pressure unit="hPa" value="1004.69">
+      </pressure>
+      <humidity value="92" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="64" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-09T03:00:00" to="2016-01-09T06:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation unit="3h" value="0.025" type="show">
+      </precipitation>
+      <windDirection deg="246.002" code="WSW" name="West-southwest">
+      </windDirection>
+      <windSpeed mps="4.61" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="-0.79" min="-0.79" max="-0.79">
+      </temperature>
+      <pressure unit="hPa" value="1005.72">
+      </pressure>
+      <humidity value="95" unit="%">
+      </humidity>
+      <clouds value="broken clouds" all="80" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-09T06:00:00" to="2016-01-09T09:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation unit="3h" value="0.015" type="show">
+      </precipitation>
+      <windDirection deg="215.001" code="SW" name="Southwest">
+      </windDirection>
+      <windSpeed mps="4.84" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="0.9" min="0.9" max="0.9">
+      </temperature>
+      <pressure unit="hPa" value="1006.01">
+      </pressure>
+      <humidity value="94" unit="%">
+      </humidity>
+      <clouds value="clear sky" all="0" unit="%">
+      </clouds>
+    </time>
+    <time from="2016-01-09T09:00:00" to="2016-01-09T12:00:00">
+      <symbol number="800" name="sky is clear" var="01d">
+      </symbol>
+      <precipitation>
+      </precipitation>
+      <windDirection deg="207.501" code="SSW" name="South-southwest">
+      </windDirection>
+      <windSpeed mps="5.41" name="Gentle Breeze">
+      </windSpeed>
+      <temperature unit="celsius" value="0.95" min="0.95" max="0.95">
+      </temperature>
+      <pressure unit="hPa" value="1005.35">
+      </pressure>
+      <humidity value="91" unit="%">
+      </humidity>
+      <clouds value="clear sky" all="0" unit="%">
+      </clouds>
+    </time>
+  </forecast>
+</weatherdata>

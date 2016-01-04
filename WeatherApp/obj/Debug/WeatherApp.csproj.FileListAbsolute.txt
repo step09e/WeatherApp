@@ -14,7 +14,3 @@ C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.exe
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.pdb
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\Windowforecast.baml
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\Windowforecast.g.cs
-C:\Users\ix64\Documents\Bitbucket\WeatherApp\bin\Debug\WeatherApp.exe.manifest
-C:\Users\ix64\Documents\Bitbucket\WeatherApp\bin\Debug\WeatherApp.application
-C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.exe.manifest
-C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.application
