@@ -75,16 +75,12 @@ namespace WeatherApp {
 			doc.LoadXml(xmlStr);
 			var data = GetDataFromXml(doc);
 			if (data.Forecasts.Count > 0) {
-				Windowforecast window = new Windowforecast();
-				window.Title = data.LocationName;
-				LocationLabel.Content = data.LocationName;
-				window.Show();
-				window.forecastDataGrid.Columns.Clear();
+  				LocationLabel.Content = data.LocationName;
 				var columns = data.GetColumns();
 				for (int i = 0; i < columns.Length; i++) {
-					window.forecastDataGrid.Columns.Add(columns[i]);
+					forecastDataGridw.Columns.Add(columns[i]);
 				}
-				window.forecastDataGrid.ItemsSource = data.Forecasts;
+				forecastDataGridw.ItemsSource = data.Forecasts;
 			}
 			else {
 				MessageBox.Show("no data received");

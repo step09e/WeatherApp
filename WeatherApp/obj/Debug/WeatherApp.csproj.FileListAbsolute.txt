@@ -14,3 +14,23 @@ C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.exe
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.pdb
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\Windowforecast.baml
 C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\Windowforecast.g.cs
+<<<<<<< HEAD
+=======
+C:\Users\ix64\Documents\Bitbucket\WeatherApp\bin\Debug\WeatherApp.exe.manifest
+C:\Users\ix64\Documents\Bitbucket\WeatherApp\bin\Debug\WeatherApp.application
+C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.exe.manifest
+C:\Users\ix64\Documents\Bitbucket\WeatherApp\obj\Debug\WeatherApp.application
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\bin\Debug\WeatherApp.exe.config
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.exe
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\bin\Debug\WeatherApp.exe
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\bin\Debug\WeatherApp.pdb
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\MainWindow.baml
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\MainWindow.g.cs
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\App.g.cs
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp_MarkupCompile.cache
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.g.resources
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
+C:\Users\User\Google Диск\SHAG\URPO\weatherproject\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.Cache
+>>>>>>> 5d7462ca1b12e381ee864c893aa561335841c7a3
