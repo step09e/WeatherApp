@@ -12,204 +12,156 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+//using System.Windows.Shapes;
+using System.Web.Script.Serialization;
 using System.IO;
+using System.Net;
 
-namespace WeatherApp
-{
+namespace WeatherApp {
 
-    public partial class MainWindow : Window
-    {
+	public partial class MainWindow : Window {
 
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+		public static readonly string JsonFileName = "ua_cities.json";
+		string[] _locations = new string[0];
+		List<string> _currentLocations = new List<string>();
+		static readonly int MaxDrobHelpItems = 8;
 
-        XmlDocument GetDataFromServer(string cityname)
-        {
-            XmlDocument xml = new XmlDocument();
-            xml.Load(string.Format("http://www.google.com/ig/api?weather={0}", cityname));
-            return xml;
-        }
+		public MainWindow() {
+			InitializeComponent();
+			LoadCitiesBase();
+			HelperDropBox.ItemsSource = _currentLocations;
+		}
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Button Butt1 = sender as Button;
-            Windowforecast Window = new Windowforecast();
-            Window.Show();
-            Window.forecast.ItemsSource = GetData(InputLocation.Text, Window);
-        }
+		void LoadCitiesBase() {
+			var path = AppDomain.CurrentDomain.BaseDirectory;
+			var root = Path.GetPathRoot(path);
 
-        //parser + html requester
-        private List<WeatherData> GetData(string cityname, Windowforecast Window)
-        {
-            //get data
-            String myUri = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + ",us&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231";
-            XmlDocument MyXmlDocument = new XmlDocument();
-            try
-            {
-                MyXmlDocument.Load(myUri);
-            }
-            catch (Exception e)
-            {
-                Window.Title = e.Message;
-                return null;
-            }
+			bool fileExists = false;
+			if (File.Exists(Path.Combine(path, JsonFileName))) {
+				fileExists = true;
+			}
+			else {
+				while (path != "" && path != root) {
+					path = Directory.GetParent(path).ToString();
+					if (File.Exists(Path.Combine(path, JsonFileName))) {
+						fileExists = true;
+						break;
+					}
+				}
+			}
+			if (fileExists) {
+				var resultList = new List<string>();
+				using (var reader = new StreamReader(Path.Combine(path, JsonFileName))) {
+					string line = "";
+					while (( line = reader.ReadLine() ) != null) {
+						JavaScriptSerializer js = new JavaScriptSerializer();
+						var dict = js.Deserialize<Dictionary<string, string>>(line);
+						if (dict.ContainsKey("city")) {
+							resultList.Add(dict["city"]);
+						}
+					}
+				}
+				resultList = resultList.ConvertAll(x => x.ToLower());
+				_locations = resultList.OrderBy(x => x).ToArray();
+			}
+			else {
+				MessageBox.Show(JsonFileName + " not found");
+			}
+		}
 
-            MyXmlDocument.Save("xml" + ".dat");
-            XmlTextReader reader = new XmlTextReader("xml" + ".dat");
+		private async void Button_Click(object sender, RoutedEventArgs e) {
+			var xmlStr = await GetXmlFromOpenWeather(InputField.Text);
+			var doc = new XmlDocument();
+			doc.LoadXml(xmlStr);
+			var data = GetDataFromXml(doc);
+			if (data.Forecasts.Count > 0) {
+				Windowforecast window = new Windowforecast();
+				window.Title = data.LocationName;
+				LocationLabel.Content = data.LocationName;
+				window.Show();
+				window.forecastDataGrid.Columns.Clear();
+				var columns = data.GetColumns();
+				for (int i = 0; i < columns.Length; i++) {
+					window.forecastDataGrid.Columns.Add(columns[i]);
+				}
+				window.forecastDataGrid.ItemsSource = data.Forecasts;
+			}
+			else {
+				MessageBox.Show("no data received");
+			}
+		}
 
-            // xml parsing
+		async Task<string> GetXmlFromOpenWeather(string cityname) {
+			var uri = new Uri("http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + "&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231"); ///Вот тут таился чёрт. ",us" добавлялся ко всем запросам, а мы все смотрели на эту строчку, и не замечали...
+			var xml = await new WebClient().DownloadStringTaskAsync(uri);
+			return xml;
+		}
 
-            List<WeatherData> MyWeatherData = new List<WeatherData>();
+		/// <summary>
+		/// Parse xml from openweathermap.org
+		/// </summary>
+		ForecastsList GetDataFromXml(XmlDocument doc) {
+			doc.Save("forecast.xml"); //сохранять больше не требуется, но будем и дальше это делать для сущей красоты
+			var result = new ForecastsList();
+			result.ParseUnitsFromXml(doc);
 
-            String DateTime_ = "";
-            String Temperature_day = "";
-            String Temperature_night = "";
-            String MinTemp = "";
-            String MaxTemp = "";
-            String Precipitation = "";
-            String Clouds = "";
-            String WindDirection = "";
-            String WindSpeed = "";
-            String Pressure = "";
-            String Humidity = "";
-            int a = 0;
+			var elements = doc.SelectNodes("//time");
 
-            while (reader.Read())
-            {
-                switch (reader.NodeType)
-                {
-                    case XmlNodeType.XmlDeclaration:
-                        //  s.AppendLine("Описание XML: Name = " + reader.Name + " Value =" + reader.Value);
-                        break;
-                    case XmlNodeType.Element:
-                        if (reader.Name == "name") a = 1;
-                        else if (reader.Name == "time")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "day")
-                                    DateTime_ = reader.Value;
-                                if (reader.Name == "from")
-                                    DateTime_ = reader.Value + " - ";
-                                if (reader.Name == "to")
-                                    DateTime_ += reader.Value;
-                            }
+			foreach (XmlNode node in elements) {
+				//парсинг с помощью xpath
+				var forecast = new WeatherData();
+				var timeFrom = node.SelectSingleNode("@from").Value;
+				var timeTo = node.SelectSingleNode("@to").Value;
+				forecast.TimeFrom = /*DateTime.Parse(*/timeFrom;//);
+				forecast.TimeTo = /*DateTime.Parse(*/timeTo;//);
+				forecast.Temperature = /*float.Parse(*/node.SelectSingleNode("temperature/@value").Value;//);
+				forecast.WindDirection = node.SelectSingleNode("windDirection/@name").Value;
+				forecast.WindSpeed = /*float.Parse(*/node.SelectSingleNode("windSpeed/@mps").Value;//);
+				forecast.WindDescription = node.SelectSingleNode("windSpeed/@name").Value;
+				forecast.Pressure = /*float.Parse(*/node.SelectSingleNode("pressure/@value").Value;//);
+				var _precipitationType = node.SelectSingleNode("precipitation/@type");
+				forecast.PrecipitationDescription = _precipitationType == null ? "" : _precipitationType.Value;
+				if (forecast.PrecipitationDescription == "show") {
+					forecast.PrecipitationDescription = "snow";
+				}
+				var _precValue = /*float.Parse(*/node.SelectSingleNode("precipitation/@value");//);
+				forecast.Precipitation = _precValue == null ? "" : _precValue.Value;
+				forecast.Humidity = /*float.Parse(*/node.SelectSingleNode("humidity/@value").Value;//);
+				forecast.CloudsDescription = node.SelectSingleNode("clouds/@value").Value;
+				forecast.Clouds = node.SelectSingleNode("clouds/@all").Value;
+				result.Forecasts.Add(forecast);
+			}
+			return result;
+		}
 
-                        else if (reader.Name == "precipitation")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "type")
-                                    Precipitation = reader.Value;
-                            }
-                        else if (reader.Name == "windDirection")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "code")
-                                    WindDirection = reader.Value;
-                            }
-                        else if (reader.Name == "windSpeed")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "mps")
-                                    WindSpeed = reader.Value;
-                            }
-                        else if (reader.Name == "temperature")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "day")
-                                    Temperature_day = reader.Value;
-                                if (reader.Name == "night")
-                                    Temperature_night = reader.Value;
-                                if (reader.Name == "value")
-                                    Temperature_day = reader.Value;
-                                if (reader.Name == "max")
-                                    MaxTemp = reader.Value;
-                                if (reader.Name == "min")
-                                    MinTemp = reader.Value;
-                            }
-                        else if (reader.Name == "pressure")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "value")
-                                    Pressure = reader.Value + "hpa";
-                            }
-                        else if (reader.Name == "humidity")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "value")
-                                    Humidity = reader.Value + "%";
-                            }
-                        else if (reader.Name == "clouds")
-                            while (reader.MoveToNextAttribute())
-                            {
-                                if (reader.Name == "all")
-                                    Clouds = reader.Value + "%";
-                            }
-                        break;
-                    case XmlNodeType.Text:
-                        if (a == 1)
-                        {
-                            Window.Title = reader.Value + " - " + " 3 hours / 5 days  " + " forecast." + "on basis of openweathermap.org source";
-                            a = 0;
-                        }
+		private void InputField_TextChanged(object sender, TextChangedEventArgs e) {
+			if (LocationLabel != null) {
+				UpdateDropDown( InputField.Text );
+			}
+		}
 
-                        break;
-                }
+		void UpdateDropDown(string query) {
+			_currentLocations.Clear();
+			var matchLocations = _locations.BinaryMinMaxIndexesSearch(query);
+			if (matchLocations.Item1 >= 0 && matchLocations.Item2 >= 0 && matchLocations.Item1 < _locations.Length && matchLocations.Item2 < _locations.Length) {
+				for (int i = matchLocations.Item1; i <= matchLocations.Item2; i++) {
+					_currentLocations.Add(_locations[i]);
+					if (_currentLocations.Count >= MaxDrobHelpItems) {
+						break;
+					}
+				}
+				HelperDropBox.Items.Refresh();
+				HelperDropBox.IsDropDownOpen = true;
+			}
+			else {
+				HelperDropBox.IsDropDownOpen = false;
+			}
+		}
 
-                try
-                {
-                    ProcessString(Clouds);
-                    MyWeatherData.Add(new WeatherData
-                    {
-                        DateTime = DateTime_,
-                        Temperature = Temperature_day,
-                        Temperature_night = Temperature_night,
-                        MinTemp = MinTemp,
-                        MaxTemp = MaxTemp,
-                        Precipitation = Precipitation,
-                        Clouds = Clouds,
-                        WindDirection = WindDirection,
-                        WindSpeed = WindSpeed,
-                        Pressure = Pressure,
-                        Humidity = Humidity
-                    });
-
-                    DateTime_ = "";
-                    Temperature_day = "";
-                    Temperature_night = "";
-                    MinTemp = "";
-                    MaxTemp = "";
-                    Precipitation = "";
-                    Clouds = "";
-                    WindDirection = "";
-                    WindSpeed = "";
-                    Pressure = "";
-                    Humidity = "";
-                }
-                catch (ArgumentNullException)
-                {
-                    continue;
-                }
-
-
-            }
-            reader.Close();
-
-            return MyWeatherData;
-        }
-
-        private void ProcessString(string s)
-        {
-            if (s.Length == 0)
-            {
-                throw new ArgumentNullException();
-            }
-        }
-
-
-    }
+		private void HelperDropBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+			InputField.Text = (string)HelperDropBox.SelectedValue;
+		}
+	}
 
 }
 
