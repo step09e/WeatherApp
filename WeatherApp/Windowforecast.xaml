@@ -1,9 +1,0 @@
-﻿<Window x:Class="WeatherApp.Windowforecast"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Windowforecast" Height="500" Width="500">
-    <Grid Background="#FF237BBD">
-        <DataGrid Name="forecastDataGrid" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeColumns="False">
-        </DataGrid>
-    </Grid>
-</Window>
