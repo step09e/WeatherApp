@@ -19,7 +19,7 @@
                 <ComboBox Name="HelperDropBox" Panel.ZIndex="-1" Margin="2" SelectionChanged="HelperDropBox_SelectionChanged"></ComboBox>
             </Grid>
         </DockPanel>
-        <Label Name="LocationLabel" Grid.Row="1" Margin="518.494,2,605,2" HorizontalAlignment="Center" Grid.Column="1"/>
+        <Label Name="LocationLabel" Grid.Row="1" Margin="1" HorizontalAlignment="Center" Grid.Column="1"/>
         <DataGrid Grid.Row="2" Name="forecastDataGridw" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeColumns="False" IsSynchronizedWithCurrentItem="True" Grid.ColumnSpan="2">
         </DataGrid>
     </Grid>
