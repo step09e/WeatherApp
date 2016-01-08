@@ -26,10 +26,10 @@ namespace WeatherApp {
 				//result[i].
 				result[i].IsReadOnly = true;
 			}
-			result[0].Header = "TimeFrom";
-			result[0].Binding = new Binding("TimeFrom");
-			result[1].Header = "TimeTo";
-			result[1].Binding = new Binding("TimeTo");
+			result[0].Header = "Date";
+			result[0].Binding = new Binding("DateStr");
+			result[1].Header = "Time (Hours)";
+			result[1].Binding = new Binding("TimeStr");
 			result[2].Header = "Temperature" + ( TemperatureUnits == "" ? "" : " (" + TemperatureUnits + ")" );
 			result[2].Binding = new Binding("Temperature");
 			result[3].Header = "Precipitation Value" + ( PrecipitationUnits == "" ? "" : " (" + PrecipitationUnits + ")" );
@@ -67,8 +67,10 @@ namespace WeatherApp {
 	}
 
 	class WeatherData {
-		public string TimeFrom { get; set;} // не пишите транслитом, пожалуйста. никогда.
-		public string TimeTo { get;	set;}
+		//public DateTime TimeFrom { get; set;} // не пишите транслитом, пожалуйста. никогда.
+		//public DateTime TimeTo { get; set;}
+		public string DateStr{get;set;} //вместо точных время-дат начала и конца интервала будем хранить отдельно дату и часы в удобночитаемом виде
+		public string TimeStr{get;set;}
 		public string Temperature {	get; set;}
 		public string Precipitation { get; set;}
 		public string PrecipitationDescription { get; set;}

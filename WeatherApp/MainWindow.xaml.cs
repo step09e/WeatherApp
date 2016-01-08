@@ -103,13 +103,16 @@ namespace WeatherApp {
 
 			var elements = doc.SelectNodes("//time");
 
+			//парсинг с помощью xpath
 			foreach (XmlNode node in elements) {
-				//парсинг с помощью xpath
 				var forecast = new WeatherData();
-				var timeFrom = node.SelectSingleNode("@from").Value;
-				var timeTo = node.SelectSingleNode("@to").Value;
-				forecast.TimeFrom = /*DateTime.Parse(*/timeFrom;//);
-				forecast.TimeTo = /*DateTime.Parse(*/timeTo;//);
+
+				var timeFromValue = node.SelectSingleNode("@from").Value;
+				var timeToValue = node.SelectSingleNode("@to").Value;
+				var timeFrom = DateTime.Parse(timeFromValue);
+				var timeTo = DateTime.Parse(timeToValue);
+				forecast.DateStr = timeFrom.ToShortDateString();
+				forecast.TimeStr = timeFrom.ToShortTimeString() + " - " + timeTo.ToShortTimeString();
 				forecast.Temperature = /*float.Parse(*/node.SelectSingleNode("temperature/@value").Value;//);
 				forecast.WindDirection = node.SelectSingleNode("windDirection/@name").Value;
 				forecast.WindSpeed = /*float.Parse(*/node.SelectSingleNode("windSpeed/@mps").Value;//);
