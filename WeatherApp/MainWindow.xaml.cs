@@ -73,8 +73,17 @@ namespace WeatherApp {
 		private async void Button_Click(object sender, RoutedEventArgs e) {
 			HelperDropBox.IsDropDownOpen = false;
 			var xmlStr = await GetXmlFromOpenWeather(InputField.Text);
+			if (xmlStr == null){
+				return;
+			}
 			var doc = new XmlDocument();
-			doc.LoadXml(xmlStr);
+			try {
+				doc.LoadXml(xmlStr);
+			}
+			catch {
+				MessageBox.Show("No data received. check query"); //я выяснил, что в случае неправильного запроса в ответ приходит джейсон с кодом 404, и хмл его не понимает, но это нам и не нужно.
+				return;
+			}
 			var data = GetDataFromXml(doc);
 			if (data.Forecasts.Count > 0) {
 				LocationLabel.Content = data.LocationName;
@@ -85,13 +94,20 @@ namespace WeatherApp {
 				forecastDataGridw.ItemsSource = data.Forecasts;
 			}
 			else {
-				MessageBox.Show("no data received. check connection");
+				MessageBox.Show("internal error: not empty xml contains 0 forecasts. check xml content");
 			}
 		}
 
 		async Task<string> GetXmlFromOpenWeather(string cityname) {
 			var uri = new Uri("http://api.openweathermap.org/data/2.5/forecast?q=" + cityname + "&mode=xml&APPID=92e4ca2d47dd0fa84408dcdf64b62231"); ///Вот тут таился чёрт. ",us" добавлялся ко всем запросам, а мы все смотрели на эту строчку, и не замечали...
-			var xml = await new WebClient().DownloadStringTaskAsync(uri);
+			string xml = "";
+			try {
+				xml = await new WebClient().DownloadStringTaskAsync(uri);
+			}
+			catch {
+				MessageBox.Show("communication failed. check internet connection or query");
+				xml = null;
+			}
 			return xml;
 		}
 
