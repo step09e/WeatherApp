@@ -15,11 +15,11 @@
         <DockPanel Grid.ColumnSpan="2">
             <Button Width="80" Content="Search" Click="Button_Click" VerticalAlignment="Top" Margin="2" DockPanel.Dock="Right"/>
             <Grid>
-                <TextBox Name="InputField" VerticalAlignment="Top" Margin="2" Text="Kiev" TextChanged="InputField_TextChanged"/>
-                <ComboBox Name="HelperDropBox" Panel.ZIndex="-1" Margin="2" SelectionChanged="HelperDropBox_SelectionChanged"></ComboBox>
+                <TextBox Name="InputField" VerticalAlignment="Top" Margin="2" Text="Kiev" TextChanged="InputField_TextChanged" KeyDown="InputField_KeyDown" PreviewKeyDown="InputField_PreviewKeyDown"/>
+                <ComboBox Name="HelperDropBox" Panel.ZIndex="-1" Margin="2" SelectionChanged="HelperDropBox_SelectionChanged" IsReadOnly="True"/>
             </Grid>
         </DockPanel>
-        <Label Name="LocationLabel" Grid.Row="1" Margin="1" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" FontSize="22" Background="{x:Null}" Foreground="#FF00FF2E" BorderThickness="0"></Label>
+        <Label Name="LocationLabel" Grid.Row="1" Margin="1" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" FontSize="22" Background="{x:Null}" Foreground="#FFD0E2BD" BorderThickness="0"></Label>
         <DataGrid Grid.Row="2" Name="forecastDataGridw" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeColumns="False" IsSynchronizedWithCurrentItem="True" CanUserAddRows="False" Grid.ColumnSpan="2">
         </DataGrid>
     </Grid>

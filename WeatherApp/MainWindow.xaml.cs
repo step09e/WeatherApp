@@ -30,6 +30,7 @@ namespace WeatherApp {
 			InitializeComponent();
 			LoadCitiesBase();
 			HelperDropBox.ItemsSource = _currentLocations;
+			HelperDropBox.Focusable = false;
 		}
 
 		void LoadCitiesBase() {
@@ -70,12 +71,13 @@ namespace WeatherApp {
 		}
 
 		private async void Button_Click(object sender, RoutedEventArgs e) {
+			HelperDropBox.IsDropDownOpen = false;
 			var xmlStr = await GetXmlFromOpenWeather(InputField.Text);
 			var doc = new XmlDocument();
 			doc.LoadXml(xmlStr);
 			var data = GetDataFromXml(doc);
 			if (data.Forecasts.Count > 0) {
-  				LocationLabel.Content = data.LocationName;
+				LocationLabel.Content = data.LocationName;
 				var columns = data.GetColumns();
 				for (int i = 0; i < columns.Length; i++) {
 					forecastDataGridw.Columns.Add(columns[i]);
@@ -134,12 +136,13 @@ namespace WeatherApp {
 		}
 
 		private void InputField_TextChanged(object sender, TextChangedEventArgs e) {
-			if (LocationLabel != null) {
-				UpdateDropDown( InputField.Text );
-			}
+			UpdateDropDown(InputField.Text);
 		}
 
 		void UpdateDropDown(string query) {
+			if (HelperDropBox == null) {
+				return;
+			}
 			_currentLocations.Clear();
 			var matchLocations = _locations.BinaryMinMaxIndexesSearch(query);
 			if (matchLocations.Item1 >= 0 && matchLocations.Item2 >= 0 && matchLocations.Item1 < _locations.Length && matchLocations.Item2 < _locations.Length) {
@@ -158,7 +161,22 @@ namespace WeatherApp {
 		}
 
 		private void HelperDropBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
-			InputField.Text = (string)HelperDropBox.SelectedValue;
+			if (HelperDropBox.SelectedValue != null) {
+				InputField.Text = (string)HelperDropBox.SelectedValue;
+				InputField.Focus();
+			}
+		}
+
+		private void InputField_KeyDown(object sender, KeyEventArgs e) {
+
+		}
+
+		private void InputField_PreviewKeyDown(object sender, KeyEventArgs e) {
+			if (HelperDropBox.IsDropDownOpen) {
+				if (e.Key == Key.Enter) {
+					Button_Click(null, null);
+				}
+			}
 		}
 	}
 
