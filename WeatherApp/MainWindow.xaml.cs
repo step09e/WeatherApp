@@ -168,10 +168,8 @@ namespace WeatherApp {
 		}
 
 		private void InputField_PreviewKeyDown(object sender, KeyEventArgs e) {
-			if (HelperDropBox.IsDropDownOpen) {
-				if (e.Key == Key.Enter) {
-					Button_Click(null, null);
-				}
+			if (e.Key == Key.Enter) {
+				Button_Click(null, null);
 			}
 		}
 	}
