@@ -1,8 +1,8 @@
 ﻿<Window x:Class="WeatherApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Weather forecast service" Height="550" Width="1225" MinWidth="350" MinHeight="250">
-    <Grid Background="#FF237BBD">
+        Title="Weather forecast service" Height="489.31" Width="663.621" MinWidth="350" MinHeight="250">
+    <Grid Background="#FF6F107E">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="86*"/>
             <ColumnDefinition Width="1133*"/>
@@ -19,8 +19,8 @@
                 <ComboBox Name="HelperDropBox" Panel.ZIndex="-1" Margin="2" SelectionChanged="HelperDropBox_SelectionChanged"></ComboBox>
             </Grid>
         </DockPanel>
-        <Label Name="LocationLabel" Grid.Row="1" Margin="1" HorizontalAlignment="Center" Grid.Column="1"/>
-        <DataGrid Grid.Row="2" Name="forecastDataGridw" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeColumns="False" IsSynchronizedWithCurrentItem="True" Grid.ColumnSpan="2">
+        <Label Name="LocationLabel" Grid.Row="1" Margin="1" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" FontSize="22" Background="{x:Null}" Foreground="#FF00FF2E" BorderThickness="0"></Label>
+        <DataGrid Grid.Row="2" Name="forecastDataGridw" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserSortColumns="False" CanUserResizeColumns="False" IsSynchronizedWithCurrentItem="True" CanUserAddRows="False" Grid.ColumnSpan="2">
         </DataGrid>
     </Grid>
 </Window>
