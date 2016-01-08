@@ -15,7 +15,7 @@
         <DockPanel Grid.ColumnSpan="2">
             <Button Width="80" Content="Search" Click="Button_Click" VerticalAlignment="Top" Margin="2" DockPanel.Dock="Right"/>
             <Grid>
-                <TextBox Name="InputField" VerticalAlignment="Top" Margin="2" Text="Kiev" TextChanged="InputField_TextChanged" KeyDown="InputField_KeyDown" PreviewKeyDown="InputField_PreviewKeyDown"/>
+                <TextBox Name="InputField" VerticalAlignment="Top" Margin="2" Text="Kiev" TextChanged="InputField_TextChanged" PreviewKeyDown="InputField_PreviewKeyDown"/>
                 <ComboBox Name="HelperDropBox" Panel.ZIndex="-1" Margin="2" SelectionChanged="HelperDropBox_SelectionChanged" IsReadOnly="True"/>
             </Grid>
         </DockPanel>

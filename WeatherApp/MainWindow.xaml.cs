@@ -54,8 +54,8 @@ namespace WeatherApp {
 				var resultList = new List<string>();
 				using (var reader = new StreamReader(Path.Combine(path, JsonFileName))) {
 					string line = "";
+					JavaScriptSerializer js = new JavaScriptSerializer();
 					while (( line = reader.ReadLine() ) != null) {
-						JavaScriptSerializer js = new JavaScriptSerializer();
 						var dict = js.Deserialize<Dictionary<string, string>>(line);
 						if (dict.ContainsKey("city")) {
 							resultList.Add(dict["city"]);
@@ -85,7 +85,7 @@ namespace WeatherApp {
 				forecastDataGridw.ItemsSource = data.Forecasts;
 			}
 			else {
-				MessageBox.Show("no data received");
+				MessageBox.Show("no data received. check connection");
 			}
 		}
 
@@ -165,10 +165,6 @@ namespace WeatherApp {
 				InputField.Text = (string)HelperDropBox.SelectedValue;
 				InputField.Focus();
 			}
-		}
-
-		private void InputField_KeyDown(object sender, KeyEventArgs e) {
-
 		}
 
 		private void InputField_PreviewKeyDown(object sender, KeyEventArgs e) {
