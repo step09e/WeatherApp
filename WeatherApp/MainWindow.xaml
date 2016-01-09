@@ -1,7 +1,7 @@
 ﻿<Window x:Class="WeatherApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Weather forecast service" Height="489.31" Width="663.621" MinWidth="350" MinHeight="250">
+        Title="Weather forecast service" Height="489.31" Width="663.621" MinWidth="350" MinHeight="250" MaxWidth="1206">
     <Grid Background="#FF6F107E">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="86*"/>

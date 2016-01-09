@@ -92,6 +92,9 @@ namespace WeatherApp {
 					forecastDataGridw.Columns.Add(columns[i]);
 				}
 				forecastDataGridw.ItemsSource = data.Forecasts;
+                if (!InputField.Text.Equals(data.LocationName, StringComparison.OrdinalIgnoreCase)){
+                    MessageBox.Show("Forecast for "+InputField.Text + " not found. received data for "+data.LocationName);
+                }
 			}
 			else {
 				MessageBox.Show("internal error: not empty xml contains 0 forecasts. check xml content");

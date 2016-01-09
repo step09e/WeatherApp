@@ -50,6 +50,7 @@ namespace WeatherApp {
 			result[10].Binding = new Binding("Pressure");
 			result[11].Header = "Humidity" + ( HumidityUnits == "" ? "" : " (" + HumidityUnits + ")" );
 			result[11].Binding = new Binding("Humidity");
+            //result[11].Width = DataGridLength.SizeToHeader;
 			return result;
 		}
 
